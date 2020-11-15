@@ -9,9 +9,22 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
     <title>Cesar Tolentino</title>
+    <style type="text/css" rel="stylesheet">
+ #bg {
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+	
+  /* Preserve aspet ratio */
+  min-width: 100%;
+  min-height: 100%;
+  opacity: .7;
+}
+  </style>
   </head>
+
   <body>
-        
+    <img src="./images/background.jpg" id="bg" alt="">
   <!-- Navigation -->
   <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
     <div class="container-fluid">
@@ -31,7 +44,7 @@
                 <a class="nav-link" href="https://github.com/techcheese">Github</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./research.html">Portfolio</a>
+              <a class="nav-link" href="./portfolio.html">Portfolio</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="./contact.html">Contact Me</a>
@@ -40,17 +53,20 @@
     </div>
     </div>
 </nav>
-
-<main>
+<main id='theMain'>
     <div class="album py-5 bg-light">
         <div class="container">
     
           <div class="row">
             <div class="col-md-4">
               <div class="card mb-4 shadow-sm">
-                <img 
+                <img src='./images/stack_app.png' height='255'>
                 <div class="card-body">
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <h3> DFS Demo</h3>
+                    <p class="card-text">DFS is a Flask app that scrapes football data from several paid sources, 
+                        pipelines the data in a NoSQL database, and then displays data a table manner in the dashboard part of the app.
+                        Included is a app to stack teams and analyze teams based on key metrics.
+                    </p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
                       <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
@@ -61,12 +77,22 @@
             </div>
             <div class="col-md-4">
               <div class="card mb-4 shadow-sm">
-                <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+                <img src='./images/scudem_pic.png'height='255'>
                 <div class="card-body">
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <h3> Examining Interaction Amongst Patrilineal Clans Using Differential Equations </h3>
+                  <p class="card-text">This work was done as part of the SIMIODE differential equation competition. 
+                    This year my partner and I decided to investigate the effects of 
+                       interactions between patrlineal clans on genetic diversity in men.
+                    We applied principles in population modeling to examine how friendly or aggresive interations affected the population in a clan, 
+                thereby affecting genetic diversity. </p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary">
+                          <a href='SCUDEMpowerpoint.pdf'> Presentation</a>
+                        </button>
+                      <butto type="button" class="btn btn-sm btn-outline-secondary">
+                        <a href='SCUDEMreport.pdf'> Report</a>
+                    </button>
                     </div>
                   </div>
                 </div>
@@ -74,9 +100,13 @@
             </div>
             <div class="col-md-4">
               <div class="card mb-4 shadow-sm">
-                <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+                <img src='./images/rock_cores.jpg'height='255'>
                 <div class="card-body">
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <h3> Examining Conductivity in differnet kinds of Stones and Stone States </h3>
+                  <p class="card-text"> This research was done with ACC/UT-Austin Geology undergraduate research team.
+                    The goal of our research was to determine the relationship between physical properties and possible states of a rock and its electrical conductivity.
+                    My group tested the conductivity level in 4 different rock cores and saw how in changed based on stats like porosity, saturation, and ion content.
+                    Needless to say 4 rock cores didn't provide much statistical robustness, but the experience in a lab was priceless. .</p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
                       <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
@@ -169,57 +199,6 @@
         </div>
       </div>
     </main>
-    <h3 class= 'col-xs-12 col-sm-12 col-md-8 col-lg-6'>
-        Having Fun with Chaos Game
-    </h3>
-    <h4 class='col-xs-12 col-sm-12 col-md-8 col-lg-6'>
-        Cesar Tolentino
-    </h4>
-    <p class='col-xs-12 col-sm-8 col-md-6 col-lg-4'>
-        This exploration started out of pure curiosity. I read something in a book , halfway through my coding bootcamp I realized I could code so I gave it shot and had some really fun and intersting realization about what I coded. This project has potential to be explored more.
-    </p>
-        <li>
-            Click  <a href='ChaosGameWeb.html'> Here</a>  for the jupyter notebook 
-        </li>
-    <h3 class= 'col-xs-12 col-sm-12 col-md-8 col-lg-6'>
-        Examining Interaction Amongst Patrilineal Clans Using Differential Equations 
-    </h3>
-    <h4 class='col-xs-12 col-sm-12 col-md-8 col-lg-6'>
-        Cesar Tolentino, Mike Salvato
-    </h4>
-    <p class='col-xs-12 col-sm-8 col-md-6 col-lg-4'>
-        This research was done as part of the SIMIODE differential equation competition. Students are given a choices between 3 questions and have a full 7 days to apply a model and make a presentation. This year my partner and I decided to invetigate the effects of Interactions between patrlineal clans on haplogroups in men. 
-    </p>
-        <li>
-            Click 
-            <a href='SCUDEMpowerpoint.pdf'> Here</a>
-            for the presentation
-        </li>
-        <li>
-            <a href="SCUDEMreport.pdf"> Report</a>
-        </li>
-
-    <h3 class='col-xs-12 col-sm-12 col-md-8 col-lg-6'>
-    Examining Conductivity in differnet kinds of Stones and Stone States
-    </h3>
-    <h4 class='col-xs-12 col-sm-12 col-md-8 col-lg-6'>
-    Cesar Tolentino, Heather Garnder, Lia Schexnyder, Than Nguyen
-    </h4>
-    <p class='col-xs-12 col-sm-8 col-md-6 col-lg-4'>
-        This research was done with ACC/UT-Austin Geology internship cohort.
-        The goal of our research was to determine the relationship between physical properties and possible states of a rock and its electrical conductivity.
-        My group tested the conductivity level in 4 different rock cores and saw how in changed based on stats like porosity, saturation, and ion content.
-        Needless to say 4 rock cores didn't provide much statistical robustness, but the experience in a lab was priceless. 
-    </p>
-    <ul>
-        Presentation Coming Soon must hunt for it :)
-    </ul>
-        
-
-
-
-
-    
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
