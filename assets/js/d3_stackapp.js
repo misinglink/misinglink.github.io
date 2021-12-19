@@ -3,8 +3,8 @@ d3.json("../../../../stack_data.json").then(function (data) {
   
   var playerData = data["players"],
     teams = data["teams"];
-    console.log(playerData)
-    console.log(teams)
+    // console.log(playerData)
+    // console.log(teams)
   var positions = ["qb", "rb", "wr", "te", "dst", "flex"],
     qbs = playerData.filter((row) => row.position === "QB"),
     rbs = playerData.filter((row) => row.position === "RB"),

@@ -15,9 +15,9 @@ function addTeamToFile (team) {
   console.log(out_obj)
 }
 
-function deleteTeamFromFile () {
+// function deleteTeamFromFile () {
 
-}
+// }
 
 
 function addPlayerTag(appendee, obj) {
