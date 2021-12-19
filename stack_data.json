@@ -1,0 +1,2260 @@
+{"players":[{
+"position" : "WR",
+"player" : "Davante Adams",
+"salary" : "8000",
+"afpa_4f4" : 21.7,
+"C_Proj" : 21.91,
+"C_Ceil" : 29.9,
+"C_Floor" : 9.2
+},
+{
+"position" : "WR",
+"player" : "Calvin Ridley",
+"salary" : "7800",
+"afpa_4f4" : 31.4,
+"C_Proj" : 20.54,
+"C_Ceil" : 28.8,
+"C_Floor" : 8.1
+},
+{
+"position" : "QB",
+"player" : "Lamar Jackson",
+"salary" : "7700",
+"afpa_4f4" : 21,
+"C_Proj" : 23.35,
+"C_Ceil" : 33.6,
+"C_Floor" : 10.5
+},
+{
+"position" : "RB",
+"player" : "Aaron Jones",
+"salary" : "7600",
+"afpa_4f4" : 13.3,
+"C_Proj" : 20.54,
+"C_Ceil" : 27.4,
+"C_Floor" : 7.2
+},
+{
+"position" : "QB",
+"player" : "Aaron Rodgers",
+"salary" : "7500",
+"afpa_4f4" : 14.9,
+"C_Proj" : 21.23,
+"C_Ceil" : 32,
+"C_Floor" : 9.9
+},
+{
+"position" : "WR",
+"player" : "Adam Thielen",
+"salary" : "7300",
+"afpa_4f4" : 20.8,
+"C_Proj" : 22.67,
+"C_Ceil" : 30.3,
+"C_Floor" : 8.9
+},
+{
+"position" : "RB",
+"player" : "Derrick Henry",
+"salary" : "7300",
+"afpa_4f4" : 27.5,
+"C_Proj" : 21.17,
+"C_Ceil" : 27.7,
+"C_Floor" : 7.6
+},
+{
+"position" : "RB",
+"player" : "Alexander Mattison",
+"salary" : "7200",
+"afpa_4f4" : 17.9,
+"C_Proj" : 21.37,
+"C_Ceil" : 27.8,
+"C_Floor" : 7.7
+},
+{
+"position" : "RB",
+"player" : "James Conner",
+"salary" : "7100",
+"afpa_4f4" : 16.9,
+"C_Proj" : 16.51,
+"C_Ceil" : 24.3,
+"C_Floor" : 4.8
+},
+{
+"position" : "RB",
+"player" : "Mike Davis",
+"salary" : "7000",
+"afpa_4f4" : 19.1,
+"C_Proj" : 21.99,
+"C_Ceil" : 28,
+"C_Floor" : 8.1
+},
+{
+"position" : "WR",
+"player" : "Allen Robinson",
+"salary" : "7000",
+"afpa_4f4" : 15,
+"C_Proj" : 19.81,
+"C_Ceil" : 28.5,
+"C_Floor" : 8.5
+},
+{
+"position" : "QB",
+"player" : "Deshaun Watson",
+"salary" : "7000",
+"afpa_4f4" : 19,
+"C_Proj" : 23.42,
+"C_Ceil" : 34,
+"C_Floor" : 10
+},
+{
+"position" : "RB",
+"player" : "Kareem Hunt",
+"salary" : "6900",
+"afpa_4f4" : 20.9,
+"C_Proj" : 19.16,
+"C_Ceil" : 26.4,
+"C_Floor" : 6.2
+},
+{
+"position" : "WR",
+"player" : "Mike Evans",
+"salary" : "6900",
+"afpa_4f4" : 23.6,
+"C_Proj" : 17.26,
+"C_Ceil" : 26.9,
+"C_Floor" : 5.8
+},
+{
+"position" : "RB",
+"player" : "James Robinson",
+"salary" : "6800",
+"afpa_4f4" : 27.4,
+"C_Proj" : 19.45,
+"C_Ceil" : 26.4,
+"C_Floor" : 6.2
+},
+{
+"position" : "WR",
+"player" : "Will Fuller",
+"salary" : "6800",
+"afpa_4f4" : 21.6,
+"C_Proj" : 18.04,
+"C_Ceil" : 26.9,
+"C_Floor" : 6
+},
+{
+"position" : "QB",
+"player" : "Ben Roethlisberger",
+"salary" : "6700",
+"afpa_4f4" : 23.4,
+"C_Proj" : 21.62,
+"C_Ceil" : 31.6,
+"C_Floor" : 10.5
+},
+{
+"position" : "RB",
+"player" : "Miles Sanders",
+"salary" : "6600",
+"afpa_4f4" : 14.6,
+"C_Proj" : 19.13,
+"C_Ceil" : 26,
+"C_Floor" : 7.2
+},
+{
+"position" : "QB",
+"player" : "Matt Ryan",
+"salary" : "6600",
+"afpa_4f4" : 16.6,
+"C_Proj" : 21.41,
+"C_Ceil" : 31.7,
+"C_Floor" : 9.8
+},
+{
+"position" : "WR",
+"player" : "JuJu Smith-Schuster",
+"salary" : "6600",
+"afpa_4f4" : 36.1,
+"C_Proj" : 16.15,
+"C_Ceil" : 25.6,
+"C_Floor" : 5
+},
+{
+"position" : "WR",
+"player" : "Marquise Brown",
+"salary" : "6500",
+"afpa_4f4" : 31,
+"C_Proj" : 17.37,
+"C_Ceil" : 25.8,
+"C_Floor" : 6
+},
+{
+"position" : "TE",
+"player" : "Mark Andrews",
+"salary" : "6500",
+"afpa_4f4" : 13.7,
+"C_Proj" : 13.58,
+"C_Ceil" : 20.8,
+"C_Floor" : 3.1
+},
+{
+"position" : "QB",
+"player" : "Tom Brady",
+"salary" : "6500",
+"afpa_4f4" : 20.1,
+"C_Proj" : 21.07,
+"C_Ceil" : 30.7,
+"C_Floor" : 9.8
+},
+{
+"position" : "QB",
+"player" : "Cam Newton",
+"salary" : "6500",
+"afpa_4f4" : 22,
+"C_Proj" : 23.24,
+"C_Ceil" : 33.2,
+"C_Floor" : 9.3
+},
+{
+"position" : "RB",
+"player" : "Jonathan Taylor",
+"salary" : "6400",
+"afpa_4f4" : 21.6,
+"C_Proj" : 19.91,
+"C_Ceil" : 27.7,
+"C_Floor" : 7.5
+},
+{
+"position" : "QB",
+"player" : "Gardner Minshew",
+"salary" : "6400",
+"afpa_4f4" : 16.1,
+"C_Proj" : 22.01,
+"C_Ceil" : 32.1,
+"C_Floor" : 9.6
+},
+{
+"position" : "WR",
+"player" : "Odell Beckham",
+"salary" : "6400",
+"afpa_4f4" : 35.8,
+"C_Proj" : 16.42,
+"C_Ceil" : 25.4,
+"C_Floor" : 4.8
+},
+{
+"position" : "WR",
+"player" : "Chris Godwin",
+"salary" : "6400",
+"afpa_4f4" : 23.6,
+"C_Proj" : 16.51,
+"C_Ceil" : 25.3,
+"C_Floor" : 5.7
+},
+{
+"position" : "WR",
+"player" : "DeVante Parker",
+"salary" : "6300",
+"afpa_4f4" : 26.1,
+"C_Proj" : 16.84,
+"C_Ceil" : 25.6,
+"C_Floor" : 5.5
+},
+{
+"position" : "QB",
+"player" : "Matthew Stafford",
+"salary" : "6300",
+"afpa_4f4" : 23.1,
+"C_Proj" : 22.38,
+"C_Ceil" : 31.9,
+"C_Floor" : 10.3
+},
+{
+"position" : "WR",
+"player" : "DJ Chark",
+"salary" : "6300",
+"afpa_4f4" : 28.9,
+"C_Proj" : 17.09,
+"C_Ceil" : 26.4,
+"C_Floor" : 5.9
+},
+{
+"position" : "RB",
+"player" : "Todd Gurley",
+"salary" : "6300",
+"afpa_4f4" : 18.7,
+"C_Proj" : 15.74,
+"C_Ceil" : 23.9,
+"C_Floor" : 3.9
+},
+{
+"position" : "WR",
+"player" : "Robby Anderson",
+"salary" : "6300",
+"afpa_4f4" : 18.7,
+"C_Proj" : 18.76,
+"C_Ceil" : 26.3,
+"C_Floor" : 6.5
+},
+{
+"position" : "RB",
+"player" : "Joe Mixon",
+"salary" : "6200",
+"afpa_4f4" : 11.8,
+"C_Proj" : 18.11,
+"C_Ceil" : 25.4,
+"C_Floor" : 6.6
+},
+{
+"position" : "WR",
+"player" : "Kenny Golladay",
+"salary" : "6200",
+"afpa_4f4" : 28.3,
+"C_Proj" : 19.23,
+"C_Ceil" : 27,
+"C_Floor" : 5.9
+},
+{
+"position" : "WR",
+"player" : "Jamison Crowder",
+"salary" : "6100",
+"afpa_4f4" : 21.3,
+"C_Proj" : 16.75,
+"C_Ceil" : 25.8,
+"C_Floor" : 6
+},
+{
+"position" : "QB",
+"player" : "Kirk Cousins",
+"salary" : "6100",
+"afpa_4f4" : 27.1,
+"C_Proj" : 22.2,
+"C_Ceil" : 32.1,
+"C_Floor" : 10.2
+},
+{
+"position" : "WR",
+"player" : "Justin Jefferson",
+"salary" : "6000",
+"afpa_4f4" : 20.8,
+"C_Proj" : 17.29,
+"C_Ceil" : 25.3,
+"C_Floor" : 5.3
+},
+{
+"position" : "QB",
+"player" : "Teddy Bridgewater",
+"salary" : "6000",
+"afpa_4f4" : 15.1,
+"C_Proj" : 19.76,
+"C_Ceil" : 30.7,
+"C_Floor" : 7.9
+},
+{
+"position" : "RB",
+"player" : "Ronald Jones",
+"salary" : "6000",
+"afpa_4f4" : 23.6,
+"C_Proj" : 14.2,
+"C_Ceil" : 23.2,
+"C_Floor" : 4.4
+},
+{
+"position" : "RB",
+"player" : "Melvin Gordon",
+"salary" : "6000",
+"afpa_4f4" : 14.3,
+"C_Proj" : 15.96,
+"C_Ceil" : 24.3,
+"C_Floor" : 5.1
+},
+{
+"position" : "QB",
+"player" : "Ryan Fitzpatrick",
+"salary" : "5900",
+"afpa_4f4" : 19.6,
+"C_Proj" : 22.11,
+"C_Ceil" : 32.5,
+"C_Floor" : 8.8
+},
+{
+"position" : "QB",
+"player" : "Philip Rivers",
+"salary" : "5900",
+"afpa_4f4" : 16.9,
+"C_Proj" : 18.08,
+"C_Ceil" : 28.6,
+"C_Floor" : 7.8
+},
+{
+"position" : "WR",
+"player" : "DJ Moore",
+"salary" : "5900",
+"afpa_4f4" : 18.7,
+"C_Proj" : 16.99,
+"C_Ceil" : 25.7,
+"C_Floor" : 5.4
+},
+{
+"position" : "QB",
+"player" : "Ryan Tannehill",
+"salary" : "5900",
+"afpa_4f4" : 17.1,
+"C_Proj" : 23.15,
+"C_Ceil" : 32.7,
+"C_Floor" : 9.5
+},
+{
+"position" : "WR",
+"player" : "Tyler Boyd",
+"salary" : "5800",
+"afpa_4f4" : 19.6,
+"C_Proj" : 15.78,
+"C_Ceil" : 24.6,
+"C_Floor" : 5.4
+},
+{
+"position" : "QB",
+"player" : "Nick Foles",
+"salary" : "5800",
+"afpa_4f4" : 10.6,
+"C_Proj" : 16.33,
+"C_Ceil" : 27.8,
+"C_Floor" : 6.6
+},
+{
+"position" : "RB",
+"player" : "David Montgomery",
+"salary" : "5800",
+"afpa_4f4" : 29.2,
+"C_Proj" : 18.14,
+"C_Ceil" : 25.1,
+"C_Floor" : 5.8
+},
+{
+"position" : "WR",
+"player" : "Terry McLaurin",
+"salary" : "5700",
+"afpa_4f4" : 21.2,
+"C_Proj" : 18.45,
+"C_Ceil" : 26.5,
+"C_Floor" : 7.1
+},
+{
+"position" : "QB",
+"player" : "Baker Mayfield",
+"salary" : "5700",
+"afpa_4f4" : 21.9,
+"C_Proj" : 18.02,
+"C_Ceil" : 28.8,
+"C_Floor" : 7.3
+},
+{
+"position" : "QB",
+"player" : "Carson Wentz",
+"salary" : "5600",
+"afpa_4f4" : 18.4,
+"C_Proj" : 18.26,
+"C_Ceil" : 29.3,
+"C_Floor" : 6.4
+},
+{
+"position" : "WR",
+"player" : "AJ Brown",
+"salary" : "5600",
+"afpa_4f4" : 20.3,
+"C_Proj" : 20.33,
+"C_Ceil" : 27.3,
+"C_Floor" : 7.1
+},
+{
+"position" : "WR",
+"player" : "Julian Edelman",
+"salary" : "5600",
+"afpa_4f4" : 26.1,
+"C_Proj" : 15.55,
+"C_Ceil" : 23.8,
+"C_Floor" : 4.3
+},
+{
+"position" : "TE",
+"player" : "Mike Gesicki",
+"salary" : "5500",
+"afpa_4f4" : 7.8,
+"C_Proj" : 10.22,
+"C_Ceil" : 18.1,
+"C_Floor" : 1.8
+},
+{
+"position" : "RB",
+"player" : "Antonio Gibson",
+"salary" : "5500",
+"afpa_4f4" : 20,
+"C_Proj" : 16.42,
+"C_Ceil" : 24,
+"C_Floor" : 5.3
+},
+{
+"position" : "WR",
+"player" : "Jerry Jeudy",
+"salary" : "5500",
+"afpa_4f4" : 23.6,
+"C_Proj" : 11.84,
+"C_Ceil" : 21.5,
+"C_Floor" : 2.3
+},
+{
+"position" : "RB",
+"player" : "Myles Gaskin",
+"salary" : "5400",
+"afpa_4f4" : 26,
+"C_Proj" : 17.13,
+"C_Ceil" : 24,
+"C_Floor" : 5.1
+},
+{
+"position" : "QB",
+"player" : "Joe Burrow",
+"salary" : "5400",
+"afpa_4f4" : 12.8,
+"C_Proj" : 18.39,
+"C_Ceil" : 29.8,
+"C_Floor" : 6.7
+},
+{
+"position" : "QB",
+"player" : "Daniel Jones",
+"salary" : "5400",
+"afpa_4f4" : 21.6,
+"C_Proj" : 20.47,
+"C_Ceil" : 31.2,
+"C_Floor" : 7.7
+},
+{
+"position" : "WR",
+"player" : "Darius Slayton",
+"salary" : "5400",
+"afpa_4f4" : 20.1,
+"C_Proj" : 15.88,
+"C_Ceil" : 24.9,
+"C_Floor" : 4.6
+},
+{
+"position" : "RB",
+"player" : "David Johnson",
+"salary" : "5400",
+"afpa_4f4" : 23.8,
+"C_Proj" : 16.22,
+"C_Ceil" : 24.1,
+"C_Floor" : 5
+},
+{
+"position" : "QB",
+"player" : "Drew Lock",
+"salary" : "5400",
+"afpa_4f4" : 12.1,
+"C_Proj" : 13.95,
+"C_Ceil" : 25.8,
+"C_Floor" : 5.1
+},
+{
+"position" : "TE",
+"player" : "Noah Fant",
+"salary" : "5400",
+"afpa_4f4" : 1.5,
+"C_Proj" : 6.72,
+"C_Ceil" : 18,
+"C_Floor" : 2.1
+},
+{
+"position" : "TE",
+"player" : "TJ Hockenson",
+"salary" : "5300",
+"afpa_4f4" : 10.4,
+"C_Proj" : 13.09,
+"C_Ceil" : 20.2,
+"C_Floor" : 3.4
+},
+{
+"position" : "WR",
+"player" : "Laviska Shenault",
+"salary" : "5200",
+"afpa_4f4" : 28.9,
+"C_Proj" : 14.1,
+"C_Ceil" : 23.6,
+"C_Floor" : 3.4
+},
+{
+"position" : "TE",
+"player" : "Jonnu Smith",
+"salary" : "5200",
+"afpa_4f4" : 7.2,
+"C_Proj" : 15.72,
+"C_Ceil" : 21.8,
+"C_Floor" : 4.4
+},
+{
+"position" : "WR",
+"player" : "Chase Claypool",
+"salary" : "5200",
+"afpa_4f4" : 36.1,
+"C_Proj" : 15.06,
+"C_Ceil" : 24.5,
+"C_Floor" : 3.5
+},
+{
+"position" : "RB",
+"player" : "Mark Ingram",
+"salary" : "5100",
+"afpa_4f4" : 16.3,
+"C_Proj" : 10.09,
+"C_Ceil" : 19.2,
+"C_Floor" : 1.2
+},
+{
+"position" : "QB",
+"player" : "Joe Flacco",
+"salary" : "5100",
+"afpa_4f4" : 15.9,
+"C_Proj" : 15.74,
+"C_Ceil" : 27.2,
+"C_Floor" : 5.7
+},
+{
+"position" : "WR",
+"player" : "Marvin Jones",
+"salary" : "5100",
+"afpa_4f4" : 28.3,
+"C_Proj" : 12.79,
+"C_Ceil" : 21.5,
+"C_Floor" : 2.8
+},
+{
+"position" : "QB",
+"player" : "Kyle Allen",
+"salary" : "5100",
+"afpa_4f4" : 14.3,
+"C_Proj" : 15.84,
+"C_Ceil" : 26.9,
+"C_Floor" : 5.5
+},
+{
+"position" : "TE",
+"player" : "Robert Tonyan",
+"salary" : "5100",
+"afpa_4f4" : 8,
+"C_Proj" : 10.89,
+"C_Ceil" : 18.3,
+"C_Floor" : 1.6
+},
+{
+"position" : "TE",
+"player" : "Zach Ertz",
+"salary" : "5000",
+"afpa_4f4" : 7.8,
+"C_Proj" : 12.52,
+"C_Ceil" : 19.3,
+"C_Floor" : 3.3
+},
+{
+"position" : "WR",
+"player" : "TY Hilton",
+"salary" : "5000",
+"afpa_4f4" : 24.1,
+"C_Proj" : 14,
+"C_Ceil" : 22.6,
+"C_Floor" : 3
+},
+{
+"position" : "TE",
+"player" : "Jimmy Graham",
+"salary" : "5000",
+"afpa_4f4" : 3.4,
+"C_Proj" : 9.13,
+"C_Ceil" : 17.5,
+"C_Floor" : 1.4
+},
+{
+"position" : "WR",
+"player" : "Brandin Cooks",
+"salary" : "5000",
+"afpa_4f4" : 21.6,
+"C_Proj" : 13.63,
+"C_Ceil" : 22.3,
+"C_Floor" : 3.2
+},
+{
+"position" : "RB",
+"player" : "Leonard Fournette",
+"salary" : "5000",
+"afpa_4f4" : 23.6,
+"C_Proj" : 8.68,
+"C_Ceil" : 18.2,
+"C_Floor" : 0
+},
+{
+"position" : "RB",
+"player" : "Damien Harris",
+"salary" : "5000",
+"afpa_4f4" : 14.3,
+"C_Proj" : 10.15,
+"C_Ceil" : 18.8,
+"C_Floor" : 1.4
+},
+{
+"position" : "WR",
+"player" : "Keelan Cole",
+"salary" : "4900",
+"afpa_4f4" : 28.9,
+"C_Proj" : 10.94,
+"C_Ceil" : 20.6,
+"C_Floor" : 1.2
+},
+{
+"position" : "RB",
+"player" : "Devonta Freeman",
+"salary" : "4900",
+"afpa_4f4" : 18.6,
+"C_Proj" : 15.77,
+"C_Ceil" : 23.2,
+"C_Floor" : 4.8
+},
+{
+"position" : "TE",
+"player" : "Evan Engram",
+"salary" : "4900",
+"afpa_4f4" : 12.4,
+"C_Proj" : 10.89,
+"C_Ceil" : 18.2,
+"C_Floor" : 1.9
+},
+{
+"position" : "WR",
+"player" : "Jarvis Landry",
+"salary" : "4900",
+"afpa_4f4" : 35.8,
+"C_Proj" : 15.1,
+"C_Ceil" : 24,
+"C_Floor" : 4.3
+},
+{
+"position" : "WR",
+"player" : "Russell Gage",
+"salary" : "4800",
+"afpa_4f4" : 31.4,
+"C_Proj" : 10.94,
+"C_Ceil" : 20.6,
+"C_Floor" : 1.6
+},
+{
+"position" : "RB",
+"player" : "James White",
+"salary" : "4800",
+"afpa_4f4" : 14.3,
+"C_Proj" : 13.32,
+"C_Ceil" : 21,
+"C_Floor" : 3.1
+},
+{
+"position" : "WR",
+"player" : "Preston Williams",
+"salary" : "4700",
+"afpa_4f4" : 26.1,
+"C_Proj" : 10.33,
+"C_Ceil" : 20.6,
+"C_Floor" : 0.8
+},
+{
+"position" : "WR",
+"player" : "Zach Pascal",
+"salary" : "4700",
+"afpa_4f4" : 24.1,
+"C_Proj" : 10.09,
+"C_Ceil" : 19.5,
+"C_Floor" : 0.4
+},
+{
+"position" : "WR",
+"player" : "Tee Higgins",
+"salary" : "4700",
+"afpa_4f4" : 19.6,
+"C_Proj" : 13.17,
+"C_Ceil" : 22.3,
+"C_Floor" : 2.1
+},
+{
+"position" : "RB",
+"player" : "Adrian Peterson",
+"salary" : "4700",
+"afpa_4f4" : 25.8,
+"C_Proj" : 11.39,
+"C_Ceil" : 19.3,
+"C_Floor" : 2.1
+},
+{
+"position" : "TE",
+"player" : "Hayden Hurst",
+"salary" : "4700",
+"afpa_4f4" : 2.5,
+"C_Proj" : 9.95,
+"C_Ceil" : 17.6,
+"C_Floor" : 1.4
+},
+{
+"position" : "WR",
+"player" : "Golden Tate",
+"salary" : "4600",
+"afpa_4f4" : 20.1,
+"C_Proj" : 11.58,
+"C_Ceil" : 21,
+"C_Floor" : 1.8
+},
+{
+"position" : "WR",
+"player" : "Marquez Valdes-Scantling",
+"salary" : "4600",
+"afpa_4f4" : 21.7,
+"C_Proj" : 11.46,
+"C_Ceil" : 20.7,
+"C_Floor" : 1.2
+},
+{
+"position" : "RB",
+"player" : "Rex Burkhead",
+"salary" : "4600",
+"afpa_4f4" : 14.3,
+"C_Proj" : 8.62,
+"C_Ceil" : 17.9,
+"C_Floor" : 0
+},
+{
+"position" : "DEF",
+"player" : "Baltimore Ravens",
+"salary" : "4500",
+"C_Proj" : 6.11,
+"C_Ceil" : 13.8,
+"C_Floor" : 2.3
+},
+{
+"position" : "RB",
+"player" : "DAndre Swift",
+"salary" : "4500",
+"afpa_4f4" : 25.8,
+"C_Proj" : 12.53,
+"C_Ceil" : 21.4,
+"C_Floor" : 2.4
+},
+{
+"position" : "WR",
+"player" : "NKeal Harry",
+"salary" : "4500",
+"afpa_4f4" : 26.1,
+"C_Proj" : 11.48,
+"C_Ceil" : 20.5,
+"C_Floor" : 1.4
+},
+{
+"position" : "WR",
+"player" : "Tim Patrick",
+"salary" : "4500",
+"afpa_4f4" : 23.6,
+"C_Proj" : 12,
+"C_Ceil" : 21.3,
+"C_Floor" : 1.9
+},
+{
+"position" : "WR",
+"player" : "Travis Fulgham",
+"salary" : "4400",
+"afpa_4f4" : 18,
+"C_Proj" : 11.29,
+"C_Ceil" : 21.6,
+"C_Floor" : 2.6
+},
+{
+"position" : "RB",
+"player" : "JD McKissic",
+"salary" : "4400",
+"afpa_4f4" : 20,
+"C_Proj" : 9.31,
+"C_Ceil" : 18,
+"C_Floor" : 1.2
+},
+{
+"position" : "WR",
+"player" : "Randall Cobb",
+"salary" : "4400",
+"afpa_4f4" : 21.6,
+"C_Proj" : 10.84,
+"C_Ceil" : 20.5,
+"C_Floor" : 1.9
+},
+{
+"position" : "TE",
+"player" : "Rob Gronkowski",
+"salary" : "4400",
+"afpa_4f4" : 5.7,
+"C_Proj" : 8.86,
+"C_Ceil" : 16.8,
+"C_Floor" : 1.3
+},
+{
+"position" : "WR",
+"player" : "Anthony Miller",
+"salary" : "4300",
+"afpa_4f4" : 15,
+"C_Proj" : 7.94,
+"C_Ceil" : 17.9,
+"C_Floor" : 0
+},
+{
+"position" : "WR",
+"player" : "Curtis Samuel",
+"salary" : "4300",
+"afpa_4f4" : 18.7,
+"C_Proj" : 11.95,
+"C_Ceil" : 21.2,
+"C_Floor" : 2
+},
+{
+"position" : "RB",
+"player" : "Phillip Lindsay",
+"salary" : "4300",
+"afpa_4f4" : 14.3,
+"C_Proj" : 6.9,
+"C_Ceil" : 16.3,
+"C_Floor" : 0
+},
+{
+"position" : "RB",
+"player" : "JK Dobbins",
+"salary" : "4200",
+"afpa_4f4" : 16.3,
+"C_Proj" : 9.2,
+"C_Ceil" : 18.6,
+"C_Floor" : 0.3
+},
+{
+"position" : "WR",
+"player" : "James Washington",
+"salary" : "4200",
+"afpa_4f4" : 36.1,
+"C_Proj" : 9.41,
+"C_Ceil" : 19.3,
+"C_Floor" : 0.8
+},
+{
+"position" : "WR",
+"player" : "Greg Ward",
+"salary" : "4100",
+"afpa_4f4" : 18,
+"C_Proj" : 9.03,
+"C_Ceil" : 20.1,
+"C_Floor" : 1.5
+},
+{
+"position" : "RB",
+"player" : "Matt Breida",
+"salary" : "4100",
+"afpa_4f4" : 26,
+"C_Proj" : 7.99,
+"C_Ceil" : 17.3,
+"C_Floor" : 0
+},
+{
+"position" : "WR",
+"player" : "Breshad Perriman",
+"salary" : "4100",
+"afpa_4f4" : 21.3,
+"C_Proj" : 4.11,
+"C_Ceil" : 15.7,
+"C_Floor" : 0
+},
+{
+"position" : "WR",
+"player" : "Danny Amendola",
+"salary" : "4100",
+"afpa_4f4" : 28.3,
+"C_Proj" : 10.43,
+"C_Ceil" : 19.9,
+"C_Floor" : 1.8
+},
+{
+"position" : "TE",
+"player" : "Eric Ebron",
+"salary" : "4100",
+"afpa_4f4" : 12.3,
+"C_Proj" : 10.84,
+"C_Ceil" : 18.3,
+"C_Floor" : 2
+},
+{
+"position" : "DEF",
+"player" : "New England Patriots",
+"salary" : "4100",
+"C_Proj" : 7.25,
+"C_Ceil" : 14.9,
+"C_Floor" : 2.5
+},
+{
+"position" : "RB",
+"player" : "Gus Edwards",
+"salary" : "4000",
+"afpa_4f4" : 16.3,
+"C_Proj" : 5.95,
+"C_Ceil" : 15,
+"C_Floor" : 0
+},
+{
+"position" : "RB",
+"player" : "Patrick Ricard",
+"salary" : "4000",
+"afpa_4f4" : 16.3,
+"C_Proj" : 2.59,
+"C_Ceil" : 12.7,
+"C_Floor" : 0
+},
+{
+"position" : "RB",
+"player" : "Boston Scott",
+"salary" : "4000",
+"afpa_4f4" : 14.6,
+"C_Proj" : 6.46,
+"C_Ceil" : 15.8,
+"C_Floor" : 0.1
+},
+{
+"position" : "RB",
+"player" : "Frank Gore",
+"salary" : "4000",
+"afpa_4f4" : 21.2,
+"C_Proj" : 10.65,
+"C_Ceil" : 19,
+"C_Floor" : 1.3
+},
+{
+"position" : "RB",
+"player" : "LaMical Perine",
+"salary" : "4000",
+"afpa_4f4" : 21.2,
+"C_Proj" : 8.16,
+"C_Ceil" : 17,
+"C_Floor" : 0.1
+},
+{
+"position" : "RB",
+"player" : "Ty Johnson",
+"salary" : "4000",
+"afpa_4f4" : 21.2,
+"C_Proj" : 2.35,
+"C_Ceil" : 12.7,
+"C_Floor" : 0
+},
+{
+"position" : "RB",
+"player" : "Nyheim Hines",
+"salary" : "4000",
+"afpa_4f4" : 21.6,
+"C_Proj" : 11.4,
+"C_Ceil" : 19.6,
+"C_Floor" : 1.6
+},
+{
+"position" : "RB",
+"player" : "Jordan Wilkins",
+"salary" : "4000",
+"afpa_4f4" : 21.6,
+"C_Proj" : 5.32,
+"C_Ceil" : 14.6,
+"C_Floor" : 0
+},
+{
+"position" : "RB",
+"player" : "Giovani Bernard",
+"salary" : "4000",
+"afpa_4f4" : 11.8,
+"C_Proj" : 4.05,
+"C_Ceil" : 13.6,
+"C_Floor" : 0
+},
+{
+"position" : "TE",
+"player" : "Mo Alie-Cox",
+"salary" : "4000",
+"afpa_4f4" : 6.2,
+"C_Proj" : 6.22,
+"C_Ceil" : 15.3,
+"C_Floor" : 0
+},
+{
+"position" : "DEF",
+"player" : "Indianapolis Colts",
+"salary" : "4000",
+"C_Proj" : 7.16,
+"C_Ceil" : 13.8,
+"C_Floor" : 2.3
+},
+{
+"position" : "RB",
+"player" : "Chris Thompson",
+"salary" : "4000",
+"afpa_4f4" : 27.4,
+"C_Proj" : 6.52,
+"C_Ceil" : 15.9,
+"C_Floor" : 0.3
+},
+{
+"position" : "RB",
+"player" : "Kerryon Johnson",
+"salary" : "4000",
+"afpa_4f4" : 25.8,
+"C_Proj" : 6.3,
+"C_Ceil" : 16,
+"C_Floor" : 0
+},
+{
+"position" : "RB",
+"player" : "Mike Boone",
+"salary" : "4000",
+"afpa_4f4" : 17.9,
+"C_Proj" : 6.38,
+"C_Ceil" : 15,
+"C_Floor" : 0
+},
+{
+"position" : "RB",
+"player" : "Ameer Abdullah",
+"salary" : "4000",
+"afpa_4f4" : 17.9,
+"C_Proj" : 3.16,
+"C_Ceil" : 12.5,
+"C_Floor" : 0
+},
+{
+"position" : "RB",
+"player" : "CJ Ham",
+"salary" : "4000",
+"afpa_4f4" : 17.9,
+"C_Proj" : 2.27,
+"C_Ceil" : 12.2,
+"C_Floor" : 0
+},
+{
+"position" : "RB",
+"player" : "Brian Hill",
+"salary" : "4000",
+"afpa_4f4" : 18.7,
+"C_Proj" : 7.88,
+"C_Ceil" : 17.3,
+"C_Floor" : 0.3
+},
+{
+"position" : "RB",
+"player" : "Ito Smith",
+"salary" : "4000",
+"afpa_4f4" : 18.7,
+"C_Proj" : 4.46,
+"C_Ceil" : 14.1,
+"C_Floor" : 0
+},
+{
+"position" : "RB",
+"player" : "Peyton Barber",
+"salary" : "4000",
+"afpa_4f4" : 20,
+"C_Proj" : 2.78,
+"C_Ceil" : 13,
+"C_Floor" : 0
+},
+{
+"position" : "RB",
+"player" : "Wayne Gallman",
+"salary" : "4000",
+"afpa_4f4" : 18.6,
+"C_Proj" : 6.27,
+"C_Ceil" : 16.2,
+"C_Floor" : 0
+},
+{
+"position" : "RB",
+"player" : "Dion Lewis",
+"salary" : "4000",
+"afpa_4f4" : 18.6,
+"C_Proj" : 5.26,
+"C_Ceil" : 14.1,
+"C_Floor" : 0
+},
+{
+"position" : "RB",
+"player" : "Trenton Cannon",
+"salary" : "4000",
+"afpa_4f4" : 19.1,
+"C_Proj" : 3.25,
+"C_Ceil" : 13.2,
+"C_Floor" : 0
+},
+{
+"position" : "RB",
+"player" : "Ryan Nall",
+"salary" : "4000",
+"afpa_4f4" : 29.2,
+"C_Proj" : 2.18,
+"C_Ceil" : 12.4,
+"C_Floor" : 0
+},
+{
+"position" : "RB",
+"player" : "Darrynton Evans",
+"salary" : "4000",
+"afpa_4f4" : 27.5,
+"C_Proj" : 4.27,
+"C_Ceil" : 14.3,
+"C_Floor" : 0
+},
+{
+"position" : "RB",
+"player" : "Jeremy McNichols",
+"salary" : "4000",
+"afpa_4f4" : 27.5,
+"C_Proj" : 3.66,
+"C_Ceil" : 13.6,
+"C_Floor" : 0
+},
+{
+"position" : "RB",
+"player" : "Duke Johnson",
+"salary" : "4000",
+"afpa_4f4" : 23.8,
+"C_Proj" : 7.03,
+"C_Ceil" : 15.3,
+"C_Floor" : 0
+},
+{
+"position" : "WR",
+"player" : "Adam Humphries",
+"salary" : "4000",
+"afpa_4f4" : 20.3,
+"C_Proj" : 13.05,
+"C_Ceil" : 20.9,
+"C_Floor" : 2.4
+},
+{
+"position" : "RB",
+"player" : "Benny Snell",
+"salary" : "4000",
+"afpa_4f4" : 16.9,
+"C_Proj" : 4.04,
+"C_Ceil" : 13.8,
+"C_Floor" : 0
+},
+{
+"position" : "RB",
+"player" : "Anthony McFarland",
+"salary" : "4000",
+"afpa_4f4" : 16.9,
+"C_Proj" : 3.92,
+"C_Ceil" : 13.3,
+"C_Floor" : 0
+},
+{
+"position" : "RB",
+"player" : "Jaylen Samuels",
+"salary" : "4000",
+"afpa_4f4" : 16.9,
+"C_Proj" : 2.24,
+"C_Ceil" : 12.4,
+"C_Floor" : 0
+},
+{
+"position" : "RB",
+"player" : "DErnest Johnson",
+"salary" : "4000",
+"afpa_4f4" : 20.9,
+"C_Proj" : 6.14,
+"C_Ceil" : 15.7,
+"C_Floor" : 0
+},
+{
+"position" : "RB",
+"player" : "Dontrell Hilliard",
+"salary" : "4000",
+"afpa_4f4" : 20.9,
+"C_Proj" : 2.62,
+"C_Ceil" : 12.9,
+"C_Floor" : 0
+},
+{
+"position" : "RB",
+"player" : "Andy Janovich",
+"salary" : "4000",
+"afpa_4f4" : 20.9,
+"C_Proj" : 2.32,
+"C_Ceil" : 12.3,
+"C_Floor" : 0
+},
+{
+"position" : "RB",
+"player" : "KeShawn Vaughn",
+"salary" : "4000",
+"afpa_4f4" : 23.6,
+"C_Proj" : 4.03,
+"C_Ceil" : 13.4,
+"C_Floor" : 0
+},
+{
+"position" : "RB",
+"player" : "Jamaal Williams",
+"salary" : "4000",
+"afpa_4f4" : 13.3,
+"C_Proj" : 8.25,
+"C_Ceil" : 17,
+"C_Floor" : 0.1
+},
+{
+"position" : "RB",
+"player" : "AJ Dillon",
+"salary" : "4000",
+"afpa_4f4" : 13.3,
+"C_Proj" : 2.59,
+"C_Ceil" : 12.6,
+"C_Floor" : 0
+},
+{
+"position" : "RB",
+"player" : "Tyler Ervin",
+"salary" : "4000",
+"afpa_4f4" : 13.3,
+"C_Proj" : 4,
+"C_Ceil" : 14.2,
+"C_Floor" : 0
+},
+{
+"position" : "RB",
+"player" : "Jakob Johnson",
+"salary" : "4000",
+"afpa_4f4" : 14.3,
+"C_Proj" : 3.34,
+"C_Ceil" : 12.7,
+"C_Floor" : 0
+},
+{
+"position" : "RB",
+"player" : "Royce Freeman",
+"salary" : "4000",
+"afpa_4f4" : 14.3,
+"C_Proj" : 2.89,
+"C_Ceil" : 13.2,
+"C_Floor" : 0
+},
+{
+"position" : "WR",
+"player" : "AJ Green",
+"salary" : "3900",
+"afpa_4f4" : 19.6,
+"C_Proj" : 11.18,
+"C_Ceil" : 20.7,
+"C_Floor" : 1.5
+},
+{
+"position" : "TE",
+"player" : "Austin Hooper",
+"salary" : "3900",
+"afpa_4f4" : 4.8,
+"C_Proj" : 10.86,
+"C_Ceil" : 17.8,
+"C_Floor" : 1.9
+},
+{
+"position" : "WR",
+"player" : "Miles Boykin",
+"salary" : "3800",
+"afpa_4f4" : 31,
+"C_Proj" : 7.41,
+"C_Ceil" : 16.5,
+"C_Floor" : 0
+},
+{
+"position" : "TE",
+"player" : "Darren Fells",
+"salary" : "3800",
+"afpa_4f4" : 11.4,
+"C_Proj" : 5.85,
+"C_Ceil" : 14.7,
+"C_Floor" : 0
+},
+{
+"position" : "TE",
+"player" : "Kyle Rudolph",
+"salary" : "3700",
+"afpa_4f4" : 16.3,
+"C_Proj" : 6.68,
+"C_Ceil" : 15.4,
+"C_Floor" : 0
+},
+{
+"position" : "DEF",
+"player" : "Green Bay Packers",
+"salary" : "3700",
+"C_Proj" : 3.35,
+"C_Ceil" : 10.2,
+"C_Floor" : 1.7
+},
+{
+"position" : "WR",
+"player" : "Chris Conley",
+"salary" : "3600",
+"afpa_4f4" : 28.9,
+"C_Proj" : 6.53,
+"C_Ceil" : 15.6,
+"C_Floor" : 0
+},
+{
+"position" : "WR",
+"player" : "Dontrelle Inman",
+"salary" : "3600",
+"afpa_4f4" : 21.2,
+"C_Proj" : 8.82,
+"C_Ceil" : 18.5,
+"C_Floor" : 0.3
+},
+{
+"position" : "TE",
+"player" : "David Njoku",
+"salary" : "3600",
+"afpa_4f4" : 4.8,
+"C_Proj" : 4.21,
+"C_Ceil" : 13.4,
+"C_Floor" : 0
+},
+{
+"position" : "DEF",
+"player" : "Pittsburgh Steelers",
+"salary" : "3600",
+"C_Proj" : 5.71,
+"C_Ceil" : 11.5,
+"C_Floor" : 1.9
+},
+{
+"position" : "WR",
+"player" : "Willie Snead",
+"salary" : "3500",
+"afpa_4f4" : 31,
+"C_Proj" : 6.9,
+"C_Ceil" : 17,
+"C_Floor" : 0
+},
+{
+"position" : "WR",
+"player" : "Isaiah Ford",
+"salary" : "3500",
+"afpa_4f4" : 26.1,
+"C_Proj" : 11.19,
+"C_Ceil" : 20.2,
+"C_Floor" : 1.4
+},
+{
+"position" : "TE",
+"player" : "Cameron Brate",
+"salary" : "3500",
+"afpa_4f4" : 5.7,
+"C_Proj" : 7.67,
+"C_Ceil" : 15.8,
+"C_Floor" : 0.4
+},
+{
+"position" : "WR",
+"player" : "Damiere Byrd",
+"salary" : "3500",
+"afpa_4f4" : 26.1,
+"C_Proj" : 11.23,
+"C_Ceil" : 19.9,
+"C_Floor" : 0.8
+},
+{
+"position" : "DEF",
+"player" : "Denver Broncos",
+"salary" : "3500",
+"C_Proj" : 2.96,
+"C_Ceil" : 8.6,
+"C_Floor" : 1.5
+},
+{
+"position" : "WR",
+"player" : "Braxton Berrios",
+"salary" : "3400",
+"afpa_4f4" : 21.3,
+"C_Proj" : 4.77,
+"C_Ceil" : 14.5,
+"C_Floor" : 0
+},
+{
+"position" : "TE",
+"player" : "Drew Sample",
+"salary" : "3400",
+"afpa_4f4" : 4.3,
+"C_Proj" : 7.8,
+"C_Ceil" : 16.1,
+"C_Floor" : 0.6
+},
+{
+"position" : "TE",
+"player" : "Tyler Eifert",
+"salary" : "3400",
+"afpa_4f4" : 3.7,
+"C_Proj" : 7.75,
+"C_Ceil" : 15.8,
+"C_Floor" : 0.4
+},
+{
+"position" : "DEF",
+"player" : "Chicago Bears",
+"salary" : "3400",
+"C_Proj" : 3.99,
+"C_Ceil" : 9.3,
+"C_Floor" : 1.6
+},
+{
+"position" : "WR",
+"player" : "Kenny Stills",
+"salary" : "3400",
+"afpa_4f4" : 21.6,
+"C_Proj" : 5.44,
+"C_Ceil" : 14,
+"C_Floor" : 0
+},
+{
+"position" : "WR",
+"player" : "Tyler Johnson",
+"salary" : "3400",
+"afpa_4f4" : 23.6,
+"C_Proj" : 4.89,
+"C_Ceil" : 14.5,
+"C_Floor" : 0
+},
+{
+"position" : "TE",
+"player" : "Logan Thomas",
+"salary" : "3300",
+"afpa_4f4" : 2,
+"C_Proj" : 8.9,
+"C_Ceil" : 16.2,
+"C_Floor" : 0.6
+},
+{
+"position" : "DEF",
+"player" : "Washington FootballTeam",
+"salary" : "3300",
+"C_Proj" : 5.79,
+"C_Ceil" : 11.2,
+"C_Floor" : 1.9
+},
+{
+"position" : "TE",
+"player" : "Jordan Akins",
+"salary" : "3300",
+"afpa_4f4" : 11.4,
+"C_Proj" : 9.87,
+"C_Ceil" : 17.9,
+"C_Floor" : 2.1
+},
+{
+"position" : "TE",
+"player" : "Chris Herndon",
+"salary" : "3200",
+"afpa_4f4" : 4.1,
+"C_Proj" : 8.26,
+"C_Ceil" : 15.9,
+"C_Floor" : 0.6
+},
+{
+"position" : "WR",
+"player" : "Olamide Zaccheaus",
+"salary" : "3200",
+"afpa_4f4" : 31.4,
+"C_Proj" : 9.16,
+"C_Ceil" : 20.4,
+"C_Floor" : 1.2
+},
+{
+"position" : "DEF",
+"player" : "New York Giants",
+"salary" : "3200",
+"C_Proj" : 6.04,
+"C_Ceil" : 12,
+"C_Floor" : 2
+},
+{
+"position" : "WR",
+"player" : "Cordarrelle Patterson",
+"salary" : "3200",
+"afpa_4f4" : 15,
+"C_Proj" : 8.66,
+"C_Ceil" : 17.5,
+"C_Floor" : 1.7
+},
+{
+"position" : "WR",
+"player" : "Kalif Raymond",
+"salary" : "3200",
+"afpa_4f4" : 20.3,
+"C_Proj" : 12.11,
+"C_Ceil" : 21.1,
+"C_Floor" : 2
+},
+{
+"position" : "TE",
+"player" : "Trey Burton",
+"salary" : "3100",
+"afpa_4f4" : 6.2,
+"C_Proj" : 9.05,
+"C_Ceil" : 16,
+"C_Floor" : 1.1
+},
+{
+"position" : "DEF",
+"player" : "Tampa Bay Buccaneers",
+"salary" : "3100",
+"C_Proj" : 2.3,
+"C_Ceil" : 8.1,
+"C_Floor" : 1.4
+},
+{
+"position" : "TE",
+"player" : "Nick Vannett",
+"salary" : "3100",
+"afpa_4f4" : 1.5,
+"C_Proj" : 3.39,
+"C_Ceil" : 11.8,
+"C_Floor" : 0
+},
+{
+"position" : "WR",
+"player" : "Devin Duvernay",
+"salary" : "3000",
+"afpa_4f4" : 31,
+"C_Proj" : 6.7,
+"C_Ceil" : 16.3,
+"C_Floor" : 0.3
+},
+{
+"position" : "WR",
+"player" : "John Hightower",
+"salary" : "3000",
+"afpa_4f4" : 18,
+"C_Proj" : 6.52,
+"C_Ceil" : 15.4,
+"C_Floor" : 0
+},
+{
+"position" : "WR",
+"player" : "JJ Arcega-Whiteside",
+"salary" : "3000",
+"afpa_4f4" : 18,
+"C_Proj" : 3.1,
+"C_Ceil" : 13.2,
+"C_Floor" : 0
+},
+{
+"position" : "WR",
+"player" : "Jeff Smith",
+"salary" : "3000",
+"afpa_4f4" : 21.3,
+"C_Proj" : 11.04,
+"C_Ceil" : 20.1,
+"C_Floor" : 1.1
+},
+{
+"position" : "WR",
+"player" : "Jakeem Grant",
+"salary" : "3000",
+"afpa_4f4" : 26.1,
+"C_Proj" : 5.11,
+"C_Ceil" : 14.1,
+"C_Floor" : 0
+},
+{
+"position" : "TE",
+"player" : "Ryan Griffin",
+"salary" : "3000",
+"afpa_4f4" : 4.1,
+"C_Proj" : 4.95,
+"C_Ceil" : 14,
+"C_Floor" : 0
+},
+{
+"position" : "WR",
+"player" : "Ashton Dulin",
+"salary" : "3000",
+"afpa_4f4" : 24.1,
+"C_Proj" : 3.12,
+"C_Ceil" : 12.6,
+"C_Floor" : 0
+},
+{
+"position" : "WR",
+"player" : "Mike Thomas",
+"salary" : "3000",
+"afpa_4f4" : 19.6,
+"C_Proj" : 3.22,
+"C_Ceil" : 12.4,
+"C_Floor" : 0
+},
+{
+"position" : "WR",
+"player" : "Auden Tate",
+"salary" : "3000",
+"afpa_4f4" : 19.6,
+"C_Proj" : 3.76,
+"C_Ceil" : 13.1,
+"C_Floor" : 0
+},
+{
+"position" : "WR",
+"player" : "Alex Erickson",
+"salary" : "3000",
+"afpa_4f4" : 19.6,
+"C_Proj" : 2.21,
+"C_Ceil" : 11.9,
+"C_Floor" : 0
+},
+{
+"position" : "WR",
+"player" : "Collin Johnson",
+"salary" : "3000",
+"C_Proj" : 6.87,
+"afpa_4f4" : 28.9,
+"C_Ceil" : 17.2,
+"C_Floor" : 0
+},
+{
+"position" : "WR",
+"player" : "Dede Westbrook",
+"salary" : "3000",
+"afpa_4f4" : 28.9,
+"C_Proj" : 5.24,
+"C_Ceil" : 13.8,
+"C_Floor" : 0
+},
+{
+"position" : "WR",
+"player" : "Quintez Cephus",
+"salary" : "3000",
+"afpa_4f4" : 28.3,
+"C_Proj" : 2.46,
+"C_Ceil" : 11.8,
+"C_Floor" : 0
+},
+{
+"position" : "TE",
+"player" : "James OShaughnessy",
+"salary" : "3000",
+"afpa_4f4" : 3.7,
+"C_Proj" : 5.11,
+"C_Ceil" : 13.8,
+"C_Floor" : 0
+},
+{
+"position" : "DEF",
+"player" : "Detroit Lions",
+"salary" : "3000",
+"C_Proj" : 5.23,
+"C_Ceil" : 10.7,
+"C_Floor" : 1.8
+},
+{
+"position" : "WR",
+"player" : "Chad Beebe",
+"salary" : "3000",
+"afpa_4f4" : 20.8,
+"C_Proj" : 3.96,
+"C_Ceil" : 13.1,
+"C_Floor" : 0
+},
+{
+"position" : "WR",
+"player" : "Olabisi Johnson",
+"salary" : "3000",
+"afpa_4f4" : 20.8,
+"C_Proj" : 4.05,
+"C_Ceil" : 13.6,
+"C_Floor" : 0
+},
+{
+"position" : "WR",
+"player" : "Christian Blake",
+"salary" : "3000",
+"afpa_4f4" : 31.4,
+"C_Proj" : 5.39,
+"C_Ceil" : 16.3,
+"C_Floor" : 0
+},
+{
+"position" : "WR",
+"player" : "Brandon Powell",
+"salary" : "3000",
+"afpa_4f4" : 31.4,
+"C_Proj" : 2.9,
+"C_Ceil" : 12.8,
+"C_Floor" : 0
+},
+{
+"position" : "WR",
+"player" : "Isaiah Wright",
+"salary" : "3000",
+"afpa_4f4" : 21.2,
+"C_Proj" : 8.05,
+"C_Ceil" : 17.1,
+"C_Floor" : 0.1
+},
+{
+"position" : "WR",
+"player" : "Antonio Gandy-Golden",
+"salary" : "3000",
+"afpa_4f4" : 21.2,
+"C_Proj" : 4.06,
+"C_Ceil" : 13.6,
+"C_Floor" : 0
+},
+{
+"position" : "WR",
+"player" : "CJ Board",
+"salary" : "3000",
+"afpa_4f4" : 20.1,
+"C_Proj" : 4.18,
+"C_Ceil" : 13.5,
+"C_Floor" : 0
+},
+{
+"position" : "WR",
+"player" : "Damion Ratley",
+"salary" : "3000",
+"afpa_4f4" : 20.1,
+"C_Proj" : 4.85,
+"C_Ceil" : 14.2,
+"C_Floor" : 0
+},
+{
+"position" : "WR",
+"player" : "Seth Roberts",
+"salary" : "3000",
+"afpa_4f4" : 18.7,
+"C_Proj" : 2.98,
+"C_Ceil" : 12.1,
+"C_Floor" : 0
+},
+{
+"position" : "WR",
+"player" : "Darnell Mooney",
+"salary" : "3000",
+"afpa_4f4" : 15,
+"C_Proj" : 9.11,
+"C_Ceil" : 18,
+"C_Floor" : 0.6
+},
+{
+"position" : "WR",
+"player" : "Javon Wims",
+"salary" : "3000",
+"afpa_4f4" : 15,
+"C_Proj" : 2.73,
+"C_Ceil" : 12.3,
+"C_Floor" : 0
+},
+{
+"position" : "WR",
+"player" : "Ted Ginn",
+"salary" : "3000",
+"afpa_4f4" : 15,
+"C_Proj" : 3.31,
+"C_Ceil" : 12.5,
+"C_Floor" : 0
+},
+{
+"position" : "WR",
+"player" : "Rashard Higgins",
+"salary" : "3000",
+"afpa_4f4" : 35.8,
+"C_Proj" : 6.33,
+"C_Ceil" : 15.7,
+"C_Floor" : 0
+},
+{
+"position" : "WR",
+"player" : "Malik Taylor",
+"salary" : "3000",
+"afpa_4f4" : 21.7,
+"C_Proj" : 3.84,
+"C_Ceil" : 14,
+"C_Floor" : 0
+},
+{
+"position" : "WR",
+"player" : "Darrius Shepherd",
+"salary" : "3000",
+"afpa_4f4" : 21.7,
+"C_Proj" : 4.81,
+"C_Ceil" : 14.5,
+"C_Floor" : 0
+},
+{
+"position" : "WR",
+"player" : "DaeSean Hamilton",
+"salary" : "3000",
+"afpa_4f4" : 23.6,
+"C_Proj" : 6.43,
+"C_Ceil" : 15.1,
+"C_Floor" : 0
+},
+{
+"position" : "WR",
+"player" : "Diontae Spencer",
+"salary" : "3000",
+"afpa_4f4" : 23.6,
+"C_Proj" : 3.6,
+"C_Ceil" : 13.5,
+"C_Floor" : 0
+},
+{
+"position" : "WR",
+"player" : "Tyrie Cleveland",
+"salary" : "3000",
+"afpa_4f4" : 23.6,
+"C_Proj" : 3.13,
+"C_Ceil" : 12.8,
+"C_Floor" : 0
+},
+{
+"position" : "TE",
+"player" : "Jake Butt",
+"salary" : "3000",
+"afpa_4f4" : 1.5,
+"C_Proj" : 3.47,
+"C_Ceil" : 12.2,
+"C_Floor" : 0
+},
+{
+"position" : "DEF",
+"player" : "Miami Dolphins",
+"salary" : "2900",
+"C_Proj" : 7.66,
+"C_Ceil" : 13.1,
+"C_Floor" : 2.2
+},
+{
+"position" : "TE",
+"player" : "Ian Thomas",
+"salary" : "2900",
+"afpa_4f4" : 9.1,
+"C_Proj" : 6.85,
+"C_Ceil" : 15.2,
+"C_Floor" : 0.3
+},
+{
+"position" : "DEF",
+"player" : "Carolina Panthers",
+"salary" : "2900",
+"C_Proj" : 6.25,
+"C_Ceil" : 11,
+"C_Floor" : 1.9
+},
+{
+"position" : "DEF",
+"player" : "Jacksonville Jaguars",
+"salary" : "2800",
+"C_Proj" : 3.88,
+"C_Ceil" : 9.3,
+"C_Floor" : 1.6
+},
+{
+"position" : "DEF",
+"player" : "Tennessee Titans",
+"salary" : "2800",
+"C_Proj" : 6.34,
+"C_Ceil" : 11.7,
+"C_Floor" : 2
+},
+{
+"position" : "TE",
+"player" : "Nick Boyle",
+"salary" : "2700",
+"afpa_4f4" : 13.7,
+"C_Proj" : 5.33,
+"C_Ceil" : 13.8,
+"C_Floor" : 0
+},
+{
+"position" : "TE",
+"player" : "Jack Doyle",
+"salary" : "2700",
+"afpa_4f4" : 6.2,
+"C_Proj" : 5.01,
+"C_Ceil" : 13.6,
+"C_Floor" : 0
+},
+{
+"position" : "DEF",
+"player" : "Houston Texans",
+"salary" : "2700",
+"C_Proj" : 3.86,
+"C_Ceil" : 9,
+"C_Floor" : 1.5
+},
+{
+"position" : "TE",
+"player" : "Vance McDonald",
+"salary" : "2700",
+"afpa_4f4" : 12.3,
+"C_Proj" : 4.97,
+"C_Ceil" : 13.6,
+"C_Floor" : 0
+},
+{
+"position" : "DEF",
+"player" : "Cleveland Browns",
+"salary" : "2700",
+"C_Proj" : 4.45,
+"C_Ceil" : 9.4,
+"C_Floor" : 1.6
+},
+{
+"position" : "TE",
+"player" : "Ryan Izzo",
+"salary" : "2700",
+"afpa_4f4" : 7.4,
+"C_Proj" : 4.06,
+"C_Ceil" : 12.2,
+"C_Floor" : 0
+},
+{
+"position" : "DEF",
+"player" : "Philadelphia Eagles",
+"salary" : "2600",
+"C_Proj" : 3.73,
+"C_Ceil" : 8.5,
+"C_Floor" : 1.4
+},
+{
+"position" : "TE",
+"player" : "Kaden Smith",
+"salary" : "2600",
+"afpa_4f4" : 12.4,
+"C_Proj" : 4.91,
+"C_Ceil" : 13.3,
+"C_Floor" : 0
+},
+{
+"position" : "TE",
+"player" : "Richard Rodgers",
+"salary" : "2500",
+"afpa_4f4" : 7.8,
+"C_Proj" : 5.8,
+"C_Ceil" : 13.9,
+"C_Floor" : 0
+},
+{
+"position" : "TE",
+"player" : "Trevon Wesco",
+"salary" : "2500",
+"afpa_4f4" : 4.1,
+"C_Proj" : 4.46,
+"C_Ceil" : 13.6,
+"C_Floor" : 0
+},
+{
+"position" : "TE",
+"player" : "Adam Shaheen",
+"salary" : "2500",
+"afpa_4f4" : 7.8,
+"C_Proj" : 3.51,
+"C_Ceil" : 12.2,
+"C_Floor" : 0
+},
+{
+"position" : "TE",
+"player" : "Cethan Carter",
+"salary" : "2500",
+"afpa_4f4" : 4.3,
+"C_Proj" : 3.11,
+"C_Ceil" : 12.1,
+"C_Floor" : 0
+},
+{
+"position" : "TE",
+"player" : "Jesse James",
+"salary" : "2500",
+"afpa_4f4" : 10.4,
+"C_Proj" : 5.38,
+"C_Ceil" : 14.1,
+"C_Floor" : 0
+},
+{
+"position" : "TE",
+"player" : "Irv Smith",
+"salary" : "2500",
+"afpa_4f4" : 16.3,
+"C_Proj" : 8.94,
+"C_Ceil" : 16.7,
+"C_Floor" : 0.8
+},
+{
+"position" : "TE",
+"player" : "Tyler Conklin",
+"salary" : "2500",
+"afpa_4f4" : 16.3,
+"C_Proj" : 5.24,
+"C_Ceil" : 12.9,
+"C_Floor" : 0
+},
+{
+"position" : "TE",
+"player" : "Luke Stocker",
+"salary" : "2500",
+"afpa_4f4" : 2.5,
+"C_Proj" : 3.1,
+"C_Ceil" : 12.1,
+"C_Floor" : 0
+},
+{
+"position" : "TE",
+"player" : "Chris Manhertz",
+"salary" : "2500",
+"afpa_4f4" : 9.1,
+"C_Proj" : 3.05,
+"C_Ceil" : 11.9,
+"C_Floor" : 0
+},
+{
+"position" : "TE",
+"player" : "Demetrius Harris",
+"salary" : "2500",
+"afpa_4f4" : 3.4,
+"C_Proj" : 3.23,
+"C_Ceil" : 11.9,
+"C_Floor" : 0
+},
+{
+"position" : "TE",
+"player" : "Anthony Firkser",
+"salary" : "2500",
+"afpa_4f4" : 7.2,
+"C_Proj" : 7.85,
+"C_Ceil" : 15.4,
+"C_Floor" : 0.3
+},
+{
+"position" : "TE",
+"player" : "MyCole Pruitt",
+"salary" : "2500",
+"afpa_4f4" : 7.2,
+"C_Proj" : 6.14,
+"C_Ceil" : 13.6,
+"C_Floor" : 0
+},
+{
+"position" : "TE",
+"player" : "Harrison Bryant",
+"salary" : "2500",
+"afpa_4f4" : 4.8,
+"C_Proj" : 4.21,
+"C_Ceil" : 12.7,
+"C_Floor" : 0
+},
+{
+"position" : "TE",
+"player" : "Jace Sternberger",
+"salary" : "2500",
+"afpa_4f4" : 8,
+"C_Proj" : 4.22,
+"C_Ceil" : 12.8,
+"C_Floor" : 0
+},
+{
+"position" : "TE",
+"player" : "Devin Asiasi",
+"salary" : "2500",
+"afpa_4f4" : 7.4,
+"C_Proj" : 2.87,
+"C_Ceil" : 11.9,
+"C_Floor" : 0
+},
+{
+"position" : "DEF",
+"player" : "New York Jets",
+"salary" : "2400",
+"C_Proj" : 5.03,
+"C_Ceil" : 9.5,
+"C_Floor" : 1.6
+},
+{
+"position" : "DEF",
+"player" : "Minnesota Vikings",
+"salary" : "2300",
+"C_Proj" : 6.07,
+"C_Ceil" : 10.8,
+"C_Floor" : 1.8
+},
+{
+"position" : "DEF",
+"player" : "Atlanta Falcons",
+"salary" : "2200",
+"C_Proj" : 5,
+"C_Ceil" : 10,
+"C_Floor" : 1.7
+},
+{
+"position" : "DEF",
+"player" : "Cincinnati Bengals",
+"salary" : "2100",
+"C_Proj" : 5.12,
+"C_Ceil" : 9.3,
+"C_Floor" : 1.6
+}
+],
+"teams": [{
+	"name" : "team1",
+	"QB" : "Lamar Jackson",
+	"RBs" : [
+		"Aaron Jones",
+		"James Conner"
+	],
+	"WRs" : [
+		"Justin Jefferson",
+		"nan",
+		"nan"
+	],
+	"TE" : "Jonnu Smith",
+	"DST" : "nan",
+	"flex" : "nan"
+},
+{
+	"name" : "default",
+	"QB" : "Tom Brady",
+	"RBs" : [
+		"Joe Mixon",
+		"Melvin Gordon"
+	],
+	"WRs" : [
+		"Will Fuller",
+		"nan",
+		"nan"
+	],
+	"TE" : "Noah Fant",
+	"DST" : "nan",
+	"flex" : "nan"
+},
+{
+	"name" : "team3",
+	"QB" : "Patrick Mahomes",
+	"RBs" : [
+		"Derrick Henry",
+		"Mike Davis"
+	],
+	"WRs" : [
+		"Terry McLaurin",
+		"nan",
+		"nan"
+	],
+	"TE" : "Mark Andrews",
+	"DST" : "nan",
+	"flex" : "nan"
+}]
+}
