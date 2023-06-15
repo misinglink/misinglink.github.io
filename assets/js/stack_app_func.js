@@ -56,8 +56,7 @@ function updateRemoveButtonFunction(
   chartHeight,
   xAxis,
   yAxis,
-  dataCurrentSelection,
-  yCurrentSelection
+  tooltip
 ) {
     // This functions take care of clearing data from
     // the graph when the user decides to change a player 
@@ -124,8 +123,7 @@ function updateRemoveButtonFunction(
       chartHeight,
       xAxis,
       yAxis,
-      dataCurrentSelection,
-      yCurrentSelection
+      tooltip
     );
   });
 }
@@ -136,19 +134,18 @@ function plotCurrentTeam(
   chartHeight,
   xAxis,
   yAxis,
-  dataCurrentSelection,
-  yCurrentSelection,
   tooltip
 ) {
 // uses current_team object to plot all players that are currently in the roster
   dataExtracted = extractCurrentTeamData(currentTeam);
   xLinearScale = xScale(
     dataExtracted.map((row) => row[1]),
-    chartWidth
+    chartWidth,
   );
   yLinearScale = yScale(
-    dataExtracted.map((row) => row[2]),
-    chartHeight
+    dataExtracted.map((row) => row[2]) ,
+    chartHeight,
+    "teamBuild"
   );
   xAxis = renderXAxis(xLinearScale, xAxis);
   yAxis = renderYAxis(yLinearScale, yAxis);
@@ -156,7 +153,7 @@ function plotCurrentTeam(
     xLinearScale,
     yLinearScale,
     dataExtracted,
-    dataCurrentSelection,
+    "teamBuild",
     tooltip
   );
 }
@@ -242,13 +239,17 @@ function xScale(data, chartWidth) {
   return xLinearScale;
 }
 
-function yScale(data, chartHeight) {
+function yScale(data, chartHeight, chartType="teamStacked") {
+  yDiff = 5
+  if (chartType == "teamBuild") {
+    yDiff = yDiff * 20
+  }  
   let yMin = d3.min(data.map((d) => parseFloat(d))),
     yMax = d3.max(data.map((d) => parseFloat(d)));
 
   let yLinearScale = d3
     .scaleLinear()
-    .domain([yMin - 5, yMax + 5])
+    .domain([yMin - yDiff, yMax + yDiff])
     .range([chartHeight, 0]);
 
   return yLinearScale;
@@ -290,13 +291,13 @@ function renderCircles(
   xLinearScale,
   yLinearScale,
   data,
-  dataCurrentSelection,
+  currentMode,
   tooltip
 ) {
   circleGroup = d3.select("#circleGroup");
   circleGroup.selectAll("circle").remove().exit();
   circleGroup.selectAll("line.error").remove().exit();
-  if (dataCurrentSelection == "teamStacked") {
+  if (currentMode == "teamStacked") {
     circleColors = [
       "#9B5DE5",
       "#f15bb5",
@@ -341,7 +342,7 @@ function renderCircles(
       });
 
     return circleGroup;
-  } else if (dataCurrentSelection == "teamPlayers") {
+  } else if (currentMode == "teamPlayers") {
     circleColors = [
       "#9B5DE5",
       "#f15bb5",
@@ -403,7 +404,7 @@ function renderCircles(
         return yLinearScale(parseFloat(d["C_Floor"]));
       });
     return circleGroup;
-  } else if (dataCurrentSelection == "teamBuild") {
+  } else if (currentMode == "teamBuild") {
     circleGroup
       .selectAll("circle")
       .data(data)

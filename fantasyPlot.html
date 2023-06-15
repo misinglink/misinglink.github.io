@@ -248,6 +248,47 @@
   <!-- Local Imports -->
   <script src="assets/js/stack_app_func.js"></script>
   <script src="assets/js/d3_stackapp.js"></script>
+  <!-- <script>
+    d3.selectAll(".posSelect").on("change", function () {
+      console.log("hello")
+      if (counts["teCount"] < 1) {
+        // Define vars and add to count lists
+        var proj = d3.select(this).attr("proj"),
+          price = d3.select(this).attr("price"),
+          list = d3.select("#teList");
+    
+        currentTeam.TEs.players.push(this.value);
+        currentTeam.TEs.projs.push(proj);
+        currentTeam.TEs.prices.push(price);
+    
+        // Manipulate DOM
+        addPlayerTag(list, currentTeam.TEs.players);
+        counts["teCount"]++;
+        updateRemoveButtonFunction(
+          counts,
+          currentTeam,
+          chartWidth,
+          chartHeight,
+          xAxis,
+          yAxis,
+          dataCurrentSelection,
+          yCurrentSelection
+        );
+        if (dataCurrentSelection == "teamBuild") {
+          plotCurrentTeam(
+            currentTeam,
+            chartWidth,
+            chartHeight,
+            xAxis,
+            yAxis,
+            dataCurrentSelection,
+            yCurrentSelection,
+            tooltip
+          );
+        }
+      }
+    });
+  </script> -->
 
 </body>
 
