@@ -19,7 +19,9 @@
     .select("#stackApp")
     .append("div")
     .classed("tooltip", true)
-    .style("visibility", "hidden");
+    .style("visibility", "hidden"),
+    yCurrentSelection = "Projection",
+    dataCurrentSelection = "teamStacked",
 
     
 d3.json("stack_data.json").then(function (data) {
@@ -215,9 +217,7 @@ d3.json("stack_data.json").then(function (data) {
     "#ff5a5f",
     "#087e8b",
   ];
-  var yCurrentSelection = "Projection",
-    dataCurrentSelection = "teamStacked",
-    teamCircleColor = d3
+  var teamCircleColor = d3
       .scaleOrdinal()
       .domain(
         teamsData.map((row) => {
