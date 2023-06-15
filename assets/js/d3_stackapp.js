@@ -575,6 +575,7 @@ d3.selectAll(".rbOpt").on("click", function () {
 });
 
 d3.selectAll(".wrOpt").on("click", function () {
+  console.log("hellowr")
   if (counts["wrCount"] < 3) {
     // Define vars and add to count lists
     var proj = d3.select(this).attr("proj"),
