@@ -379,123 +379,6 @@ d3.json("stack_data.json").then(function (data) {
     }
   });
 
-  d3.selectAll(".rbOpt").on("click", function () {
-    if (counts["rbCount"] < 2) {
-      // Define vars and add to count lists
-      var proj = d3.select(this).attr("proj"),
-        price = d3.select(this).attr("price"),
-        list = d3.select("#rbList");
-
-      currentTeam.RBs.players.push(this.value);
-      currentTeam.RBs.projs.push(proj);
-      currentTeam.RBs.prices.push(price);
-
-      // Manipulate DOM
-      addPlayerTag(list, currentTeam.RBs.players);
-      counts["rbCount"]++;
-      updateRemoveButtonFunction(
-        counts,
-        currentTeam,
-        chartWidth,
-        chartHeight,
-        xAxis,
-        yAxis,
-        dataCurrentSelection,
-        yCurrentSelection
-      );
-      if (dataCurrentSelection == "teamBuild") {
-        plotCurrentTeam(
-          currentTeam,
-          chartWidth,
-          chartHeight,
-          xAxis,
-          yAxis,
-          dataCurrentSelection,
-          yCurrentSelection,
-          tooltip
-        );
-      }
-    }
-  });
-
-  d3.selectAll(".wrOpt").on("click", function () {
-    if (counts["wrCount"] < 3) {
-      // Define vars and add to count lists
-      var proj = d3.select(this).attr("proj"),
-        price = d3.select(this).attr("price"),
-        list = d3.select("#wrList");
-
-      currentTeam.WRs.players.push(this.value);
-      currentTeam.WRs.projs.push(proj);
-      currentTeam.WRs.prices.push(price);
-
-      // Manipulate DOM
-      addPlayerTag(list, currentTeam.WRs.players);
-      counts["wrCount"]++;
-      updateRemoveButtonFunction(
-        counts,
-        currentTeam,
-        chartWidth,
-        chartHeight,
-        xAxis,
-        yAxis,
-        dataCurrentSelection,
-        yCurrentSelection
-      );
-
-      if (dataCurrentSelection == "teamBuild") {
-        plotCurrentTeam(
-          currentTeam,
-          chartWidth,
-          chartHeight,
-          xAxis,
-          yAxis,
-          dataCurrentSelection,
-          yCurrentSelection,
-          tooltip
-        );
-      }
-    }
-  });
-
-  d3.selectAll(".teOpt").on("click", function () {
-    if (counts["teCount"] < 1) {
-      // Define vars and add to count lists
-      var proj = d3.select(this).attr("proj"),
-        price = d3.select(this).attr("price"),
-        list = d3.select("#teList");
-
-      currentTeam.TEs.players.push(this.value);
-      currentTeam.TEs.projs.push(proj);
-      currentTeam.TEs.prices.push(price);
-
-      // Manipulate DOM
-      addPlayerTag(list, currentTeam.TEs.players);
-      counts["teCount"]++;
-      updateRemoveButtonFunction(
-        counts,
-        currentTeam,
-        chartWidth,
-        chartHeight,
-        xAxis,
-        yAxis,
-        dataCurrentSelection,
-        yCurrentSelection
-      );
-      if (dataCurrentSelection == "teamBuild") {
-        plotCurrentTeam(
-          currentTeam,
-          chartWidth,
-          chartHeight,
-          xAxis,
-          yAxis,
-          dataCurrentSelection,
-          yCurrentSelection,
-          tooltip
-        );
-      }
-    }
-  });
 
   d3.selectAll(".dstOpt").on("click", function () {
     if (counts["dstCount"] < 1) {
@@ -650,4 +533,122 @@ d3.json("stack_data.json").then(function (data) {
     addTeamToFile(teamPlayers);
     window.location.reload();
   });
+});
+
+d3.selectAll(".rbOpt").on("click", function () {
+  if (counts["rbCount"] < 2) {
+    // Define vars and add to count lists
+    var proj = d3.select(this).attr("proj"),
+      price = d3.select(this).attr("price"),
+      list = d3.select("#rbList");
+
+    currentTeam.RBs.players.push(this.value);
+    currentTeam.RBs.projs.push(proj);
+    currentTeam.RBs.prices.push(price);
+
+    // Manipulate DOM
+    addPlayerTag(list, currentTeam.RBs.players);
+    counts["rbCount"]++;
+    updateRemoveButtonFunction(
+      counts,
+      currentTeam,
+      chartWidth,
+      chartHeight,
+      xAxis,
+      yAxis,
+      dataCurrentSelection,
+      yCurrentSelection
+    );
+    if (dataCurrentSelection == "teamBuild") {
+      plotCurrentTeam(
+        currentTeam,
+        chartWidth,
+        chartHeight,
+        xAxis,
+        yAxis,
+        dataCurrentSelection,
+        yCurrentSelection,
+        tooltip
+      );
+    }
+  }
+});
+
+d3.selectAll(".wrOpt").on("click", function () {
+  if (counts["wrCount"] < 3) {
+    // Define vars and add to count lists
+    var proj = d3.select(this).attr("proj"),
+      price = d3.select(this).attr("price"),
+      list = d3.select("#wrList");
+
+    currentTeam.WRs.players.push(this.value);
+    currentTeam.WRs.projs.push(proj);
+    currentTeam.WRs.prices.push(price);
+
+    // Manipulate DOM
+    addPlayerTag(list, currentTeam.WRs.players);
+    counts["wrCount"]++;
+    updateRemoveButtonFunction(
+      counts,
+      currentTeam,
+      chartWidth,
+      chartHeight,
+      xAxis,
+      yAxis,
+      dataCurrentSelection,
+      yCurrentSelection
+    );
+
+    if (dataCurrentSelection == "teamBuild") {
+      plotCurrentTeam(
+        currentTeam,
+        chartWidth,
+        chartHeight,
+        xAxis,
+        yAxis,
+        dataCurrentSelection,
+        yCurrentSelection,
+        tooltip
+      );
+    }
+  }
+});
+
+d3.selectAll(".teOpt").on("click", function () {
+  if (counts["teCount"] < 1) {
+    // Define vars and add to count lists
+    var proj = d3.select(this).attr("proj"),
+      price = d3.select(this).attr("price"),
+      list = d3.select("#teList");
+
+    currentTeam.TEs.players.push(this.value);
+    currentTeam.TEs.projs.push(proj);
+    currentTeam.TEs.prices.push(price);
+
+    // Manipulate DOM
+    addPlayerTag(list, currentTeam.TEs.players);
+    counts["teCount"]++;
+    updateRemoveButtonFunction(
+      counts,
+      currentTeam,
+      chartWidth,
+      chartHeight,
+      xAxis,
+      yAxis,
+      dataCurrentSelection,
+      yCurrentSelection
+    );
+    if (dataCurrentSelection == "teamBuild") {
+      plotCurrentTeam(
+        currentTeam,
+        chartWidth,
+        chartHeight,
+        xAxis,
+        yAxis,
+        dataCurrentSelection,
+        yCurrentSelection,
+        tooltip
+      );
+    }
+  }
 });
