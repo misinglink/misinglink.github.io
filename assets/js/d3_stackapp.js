@@ -678,8 +678,12 @@ d3.selectAll('.posSelect').on('change', function() {
     }
   };
 
-  updateCurrentTeamDisplay(team);
-
   // Plot the current team
-  plotCurrentTeam(team);
+  plotCurrentTeam(team, chartWidth,
+            chartHeight,
+            xAxis,
+            yAxis,
+            dataCurrentSelection,
+            yCurrentSelection,
+            tooltip);
 });
