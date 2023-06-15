@@ -21,7 +21,7 @@
     .classed("tooltip", true)
     .style("visibility", "hidden"),
     yCurrentSelection = "Projection",
-    dataCurrentSelection = "teamStacked",
+    dataCurrentSelection = "teamStacked",g
 
     
 d3.json("stack_data.json").then(function (data) {
