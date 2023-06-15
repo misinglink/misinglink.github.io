@@ -340,128 +340,128 @@ d3.json("stack_data.json").then(function (data) {
       return `${d}List`;
     });
 
-  // Event handler for player selection
-  d3.selectAll(".qbOpt").on("click", function () {
-    if (counts["qbCount"] < 1) {
-      // Define vars and add to count lists
-      var proj = d3.select(this).attr("proj"),
-        price = d3.select(this).attr("price"),
-        list = d3.select("#qbList");
+  // // Event handler for player selection
+  // d3.selectAll(".qbOpt").on("click", function () {
+  //   if (counts["qbCount"] < 1) {
+  //     // Define vars and add to count lists
+  //     var proj = d3.select(this).attr("proj"),
+  //       price = d3.select(this).attr("price"),
+  //       list = d3.select("#qbList");
 
-      currentTeam.QBs.players.push(this.value);
-      currentTeam.QBs.projs.push(proj);
-      currentTeam.QBs.prices.push(price);
+  //     currentTeam.QBs.players.push(this.value);
+  //     currentTeam.QBs.projs.push(proj);
+  //     currentTeam.QBs.prices.push(price);
 
-      addPlayerTag(list, currentTeam.QBs.players);
-      counts["qbCount"]++;
-      updateRemoveButtonFunction(
-        counts,
-        currentTeam,
-        chartWidth,
-        chartHeight,
-        xAxis,
-        yAxis,
-        dataCurrentSelection,
-        yCurrentSelection
-      );
-      if (dataCurrentSelection == "teamBuild") {
-        plotCurrentTeam(
-          currentTeam,
-          chartWidth,
-          chartHeight,
-          xAxis,
-          yAxis,
-          dataCurrentSelection,
-          yCurrentSelection,
-          tooltip
-        );
-      }
-    }
-  });
+  //     addPlayerTag(list, currentTeam.QBs.players);
+  //     counts["qbCount"]++;
+  //     updateRemoveButtonFunction(
+  //       counts,
+  //       currentTeam,
+  //       chartWidth,
+  //       chartHeight,
+  //       xAxis,
+  //       yAxis,
+  //       dataCurrentSelection,
+  //       yCurrentSelection
+  //     );
+  //     if (dataCurrentSelection == "teamBuild") {
+  //       plotCurrentTeam(
+  //         currentTeam,
+  //         chartWidth,
+  //         chartHeight,
+  //         xAxis,
+  //         yAxis,
+  //         dataCurrentSelection,
+  //         yCurrentSelection,
+  //         tooltip
+  //       );
+  //     }
+  //   }
+  // });
 
 
-  d3.selectAll(".dstOpt").on("click", function () {
-    if (counts["dstCount"] < 1) {
-      // Define vars and add to count lists
-      var proj = d3.select(this).attr("proj"),
-        price = d3.select(this).attr("price"),
-        list = d3.select("#dstList");
+  // d3.selectAll(".dstOpt").on("click", function () {
+  //   if (counts["dstCount"] < 1) {
+  //     // Define vars and add to count lists
+  //     var proj = d3.select(this).attr("proj"),
+  //       price = d3.select(this).attr("price"),
+  //       list = d3.select("#dstList");
 
-      currentTeam.DSTs.players.push(this.value);
-      currentTeam.DSTs.projs.push(proj);
-      currentTeam.DSTs.prices.push(price);
+  //     currentTeam.DSTs.players.push(this.value);
+  //     currentTeam.DSTs.projs.push(proj);
+  //     currentTeam.DSTs.prices.push(price);
 
-      // Manipulate DOM
-      addPlayerTag(list, currentTeam.DSTs.players);
-      counts["dstCount"]++;
-      updateRemoveButtonFunction(
-        counts,
-        currentTeam,
-        chartWidth,
-        chartHeight,
-        xAxis,
-        yAxis,
-        dataCurrentSelection,
-        yCurrentSelection
-      );
-      if (dataCurrentSelection == "teamBuild") {
-        plotCurrentTeam(
-          currentTeam,
-          chartWidth,
-          chartHeight,
-          xAxis,
-          yAxis,
-          dataCurrentSelection,
-          yCurrentSelection,
-          tooltip
-        );
-      }
-    }
-  });
+  //     // Manipulate DOM
+  //     addPlayerTag(list, currentTeam.DSTs.players);
+  //     counts["dstCount"]++;
+  //     updateRemoveButtonFunction(
+  //       counts,
+  //       currentTeam,
+  //       chartWidth,
+  //       chartHeight,
+  //       xAxis,
+  //       yAxis,
+  //       dataCurrentSelection,
+  //       yCurrentSelection
+  //     );
+  //     if (dataCurrentSelection == "teamBuild") {
+  //       plotCurrentTeam(
+  //         currentTeam,
+  //         chartWidth,
+  //         chartHeight,
+  //         xAxis,
+  //         yAxis,
+  //         dataCurrentSelection,
+  //         yCurrentSelection,
+  //         tooltip
+  //       );
+  //     }
+  //   }
+  // });
 
-  //   Event handler for flex position
-  d3.selectAll(".flexPositionOpt").on("click", function () {
-    if (this.value == "RB") {
-      assignOptions(rbs, "flexPlayer");
-      updateFlexOptions(
-        counts,
-        currentTeam,
-        chartWidth,
-        chartHeight,
-        xAxis,
-        yAxis,
-        dataCurrentSelection,
-        yCurrentSelection,
-        tooltip
-      );
-    } else if (this.value == "WR") {
-      assignOptions(wrs, "flexPlayer");
-      updateFlexOptions(
-        counts,
-        currentTeam,
-        chartWidth,
-        chartHeight,
-        xAxis,
-        yAxis,
-        dataCurrentSelection,
-        yCurrentSelection,
-        tooltip
-      );
-    } else if (this.value == "TE") {
-      assignOptions(tes, "flexPlayer");
-      updateFlexOptions(
-        counts,
-        currentTeam,
-        chartWidth,
-        chartHeight,
-        xAxis,
-        yAxis,
-        dataCurrentSelection,
-        yCurrentSelection,
-        tooltip
-      );
-    }
-  });
+  // //   Event handler for flex position
+  // d3.selectAll(".flexPositionOpt").on("click", function () {
+  //   if (this.value == "RB") {
+  //     assignOptions(rbs, "flexPlayer");
+  //     updateFlexOptions(
+  //       counts,
+  //       currentTeam,
+  //       chartWidth,
+  //       chartHeight,
+  //       xAxis,
+  //       yAxis,
+  //       dataCurrentSelection,
+  //       yCurrentSelection,
+  //       tooltip
+  //     );
+  //   } else if (this.value == "WR") {
+  //     assignOptions(wrs, "flexPlayer");
+  //     updateFlexOptions(
+  //       counts,
+  //       currentTeam,
+  //       chartWidth,
+  //       chartHeight,
+  //       xAxis,
+  //       yAxis,
+  //       dataCurrentSelection,
+  //       yCurrentSelection,
+  //       tooltip
+  //     );
+  //   } else if (this.value == "TE") {
+  //     assignOptions(tes, "flexPlayer");
+  //     updateFlexOptions(
+  //       counts,
+  //       currentTeam,
+  //       chartWidth,
+  //       chartHeight,
+  //       xAxis,
+  //       yAxis,
+  //       dataCurrentSelection,
+  //       yCurrentSelection,
+  //       tooltip
+  //     );
+  //   }
+  // });
 
   //  event handler for team name submition
   d3.select("#nameSetterButton").on("click", function () {
@@ -535,122 +535,151 @@ d3.json("stack_data.json").then(function (data) {
   });
 });
 
-d3.selectAll(".rbOpt").on("click", function () {
-  if (counts["rbCount"] < 2) {
-    // Define vars and add to count lists
-    var proj = d3.select(this).attr("proj"),
-      price = d3.select(this).attr("price"),
-      list = d3.select("#rbList");
+// d3.selectAll(".rbOpt").on("click", function () {
+//   if (counts["rbCount"] < 2) {
+//     // Define vars and add to count lists
+//     var proj = d3.select(this).attr("proj"),
+//       price = d3.select(this).attr("price"),
+//       list = d3.select("#rbList");
 
-    currentTeam.RBs.players.push(this.value);
-    currentTeam.RBs.projs.push(proj);
-    currentTeam.RBs.prices.push(price);
+//     currentTeam.RBs.players.push(this.value);
+//     currentTeam.RBs.projs.push(proj);
+//     currentTeam.RBs.prices.push(price);
 
-    // Manipulate DOM
-    addPlayerTag(list, currentTeam.RBs.players);
-    counts["rbCount"]++;
-    updateRemoveButtonFunction(
-      counts,
-      currentTeam,
-      chartWidth,
-      chartHeight,
-      xAxis,
-      yAxis,
-      dataCurrentSelection,
-      yCurrentSelection
-    );
-    if (dataCurrentSelection == "teamBuild") {
-      plotCurrentTeam(
-        currentTeam,
-        chartWidth,
-        chartHeight,
-        xAxis,
-        yAxis,
-        dataCurrentSelection,
-        yCurrentSelection,
-        tooltip
-      );
+//     // Manipulate DOM
+//     addPlayerTag(list, currentTeam.RBs.players);
+//     counts["rbCount"]++;
+//     updateRemoveButtonFunction(
+//       counts,
+//       currentTeam,
+//       chartWidth,
+//       chartHeight,
+//       xAxis,
+//       yAxis,
+//       dataCurrentSelection,
+//       yCurrentSelection
+//     );
+//     if (dataCurrentSelection == "teamBuild") {
+//       plotCurrentTeam(
+//         currentTeam,
+//         chartWidth,
+//         chartHeight,
+//         xAxis,
+//         yAxis,
+//         dataCurrentSelection,
+//         yCurrentSelection,
+//         tooltip
+//       );
+//     }
+//   }
+// });
+
+// d3.selectAll(".wrOpt").on("click", function () {
+//   console.log("hellowr")
+//   if (counts["wrCount"] < 3) {
+//     // Define vars and add to count lists
+//     var proj = d3.select(this).attr("proj"),
+//       price = d3.select(this).attr("price"),
+//       list = d3.select("#wrList");
+
+//     currentTeam.WRs.players.push(this.value);
+//     currentTeam.WRs.projs.push(proj);
+//     currentTeam.WRs.prices.push(price);
+
+//     // Manipulate DOM
+//     addPlayerTag(list, currentTeam.WRs.players);
+//     counts["wrCount"]++;
+//     updateRemoveButtonFunction(
+//       counts,
+//       currentTeam,
+//       chartWidth,
+//       chartHeight,
+//       xAxis,
+//       yAxis,
+//       dataCurrentSelection,
+//       yCurrentSelection
+//     );
+
+//     if (dataCurrentSelection == "teamBuild") {
+//       plotCurrentTeam(
+//         currentTeam,
+//         chartWidth,
+//         chartHeight,
+//         xAxis,
+//         yAxis,
+//         dataCurrentSelection,
+//         yCurrentSelection,
+//         tooltip
+//       );
+//     }
+//   }
+// });
+
+// d3.selectAll(".teOpt").on("click", function () {
+//   console.log("hello")
+//   if (counts["teCount"] < 1) {
+//     // Define vars and add to count lists
+//     var proj = d3.select(this).attr("proj"),
+//       price = d3.select(this).attr("price"),
+//       list = d3.select("#teList");
+
+//     currentTeam.TEs.players.push(this.value);
+//     currentTeam.TEs.projs.push(proj);
+//     currentTeam.TEs.prices.push(price);
+
+//     // Manipulate DOM
+//     addPlayerTag(list, currentTeam.TEs.players);
+//     counts["teCount"]++;
+//     updateRemoveButtonFunction(
+//       counts,
+//       currentTeam,
+//       chartWidth,
+//       chartHeight,
+//       xAxis,
+//       yAxis,
+//       dataCurrentSelection,
+//       yCurrentSelection
+//     );
+//     if (dataCurrentSelection == "teamBuild") {
+//       plotCurrentTeam(
+//         currentTeam,
+//         chartWidth,
+//         chartHeight,
+//         xAxis,
+//         yAxis,
+//         dataCurrentSelection,
+//         yCurrentSelection,
+//         tooltip
+//       );
+//     }
+//   }
+// });
+
+d3.selectAll('.posSelect').on('change', function() {
+  // Get the selected players from the dropdowns
+  var selectedQB = d3.select('#qbSelection').node().value;
+  var selectedRB = d3.select('#rbSelection').node().value;
+  var selectedWR = d3.select('#wrSelection').node().value;
+  var selectedTE = d3.select('#teSelection').node().value;
+  var selectedDST = d3.select('#dstSelection').node().value;
+  var selectedFlexPosition = d3.select('#flexPositionSelection').node().value;
+  var selectedFlexPlayer = d3.select('#flexPlayerSelection').node().value;
+
+  // Update the current team display
+  var team = {
+    QB: selectedQB,
+    RB: [selectedRB],
+    WR: [selectedWR],
+    TE: selectedTE,
+    DST: selectedDST,
+    Flex: {
+      position: selectedFlexPosition,
+      player: selectedFlexPlayer
     }
-  }
-});
+  };
 
-d3.selectAll(".wrOpt").on("click", function () {
-  console.log("hellowr")
-  if (counts["wrCount"] < 3) {
-    // Define vars and add to count lists
-    var proj = d3.select(this).attr("proj"),
-      price = d3.select(this).attr("price"),
-      list = d3.select("#wrList");
+  updateCurrentTeamDisplay(team);
 
-    currentTeam.WRs.players.push(this.value);
-    currentTeam.WRs.projs.push(proj);
-    currentTeam.WRs.prices.push(price);
-
-    // Manipulate DOM
-    addPlayerTag(list, currentTeam.WRs.players);
-    counts["wrCount"]++;
-    updateRemoveButtonFunction(
-      counts,
-      currentTeam,
-      chartWidth,
-      chartHeight,
-      xAxis,
-      yAxis,
-      dataCurrentSelection,
-      yCurrentSelection
-    );
-
-    if (dataCurrentSelection == "teamBuild") {
-      plotCurrentTeam(
-        currentTeam,
-        chartWidth,
-        chartHeight,
-        xAxis,
-        yAxis,
-        dataCurrentSelection,
-        yCurrentSelection,
-        tooltip
-      );
-    }
-  }
-});
-
-d3.selectAll(".teOpt").on("click", function () {
-  console.log("hello")
-  if (counts["teCount"] < 1) {
-    // Define vars and add to count lists
-    var proj = d3.select(this).attr("proj"),
-      price = d3.select(this).attr("price"),
-      list = d3.select("#teList");
-
-    currentTeam.TEs.players.push(this.value);
-    currentTeam.TEs.projs.push(proj);
-    currentTeam.TEs.prices.push(price);
-
-    // Manipulate DOM
-    addPlayerTag(list, currentTeam.TEs.players);
-    counts["teCount"]++;
-    updateRemoveButtonFunction(
-      counts,
-      currentTeam,
-      chartWidth,
-      chartHeight,
-      xAxis,
-      yAxis,
-      dataCurrentSelection,
-      yCurrentSelection
-    );
-    if (dataCurrentSelection == "teamBuild") {
-      plotCurrentTeam(
-        currentTeam,
-        chartWidth,
-        chartHeight,
-        xAxis,
-        yAxis,
-        dataCurrentSelection,
-        yCurrentSelection,
-        tooltip
-      );
-    }
-  }
+  // Plot the current team
+  plotCurrentTeam(team);
 });
