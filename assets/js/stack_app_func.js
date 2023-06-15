@@ -155,7 +155,6 @@ function plotCurrentTeam(
   circlesGroup = renderCircles(
     xLinearScale,
     yLinearScale,
-    yCurrentSelection,
     dataExtracted,
     dataCurrentSelection,
     tooltip
@@ -290,7 +289,6 @@ function extractCurrentTeamData(currentTeam) {
 function renderCircles(
   xLinearScale,
   yLinearScale,
-  yCurrentSelection,
   data,
   dataCurrentSelection,
   tooltip

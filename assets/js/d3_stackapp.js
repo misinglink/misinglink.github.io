@@ -687,7 +687,7 @@ d3.selectAll('.posSelect').on('change', function() {
             chartHeight,
             xAxis,
             yAxis,
-            dataCurrentSelection,
+            "builder",
             yCurrentSelection,
             tooltip);
 });
