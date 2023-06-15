@@ -615,6 +615,7 @@ d3.selectAll(".wrOpt").on("click", function () {
 });
 
 d3.selectAll(".teOpt").on("click", function () {
+  console.log("hello")
   if (counts["teCount"] < 1) {
     // Define vars and add to count lists
     var proj = d3.select(this).attr("proj"),
