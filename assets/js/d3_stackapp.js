@@ -1,4 +1,4 @@
-d3.json("../../../../stack_data.json").then(function (data) {
+d3.json("stack_data.json").then(function (data) {
   // Extract data from query
   
   var playerData = data["players"],
