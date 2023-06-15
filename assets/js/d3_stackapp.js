@@ -1,107 +1,3 @@
-d3.json("stack_data.json").then(function (data) {
-  // Extract data from query
-  console.log("loading data...")
-  var playerData = data["players"],
-    teams = data["teams"];
-    // console.log(playerData)
-    // console.log(teams)
-  var positions = ["qb", "rb", "wr", "te", "dst", "flex"],
-    qbs = playerData.filter((row) => row.position === "QB"),
-    rbs = playerData.filter((row) => row.position === "RB"),
-    wrs = playerData.filter((row) => row.position === "WR"),
-    tes = playerData.filter((row) => row.position === "TE"),
-    dst = playerData.filter((row) => row.position === "DEF");
-
-  assignOptions(qbs, "qb");
-  assignOptions(rbs, "rb");
-  assignOptions(wrs, "wr");
-  assignOptions(tes, "te");
-  assignOptions(dst, "dst");
-  assignOptions(["RB", "WR", "TE"], "flexPosition");
-
-  //  initiate empty dictionaries to be used for data
-  // manipulation later in code
-  var counts = {
-      qbCount: 0,
-      rbCount: 0,
-      wrCount: 0,
-      teCount: 0,
-      dstCount: 0,
-      flexCount: 0,
-    },
-    currentTeam = {
-      teamName: [],
-      QBs: { players: [], projs: [], prices: [] },
-      RBs: { players: [], projs: [], prices: [] },
-      WRs: { players: [], projs: [], prices: [] },
-      TEs: { players: [], projs: [], prices: [] },
-      DSTs: { players: [], projs: [], prices: [] },
-      flexs: { players: [], projs: [], prices: [] },
-    };
-
-  // Get team data
-  var teamLists = teams.map((elem) => {
-    var nameList = Object.values(elem).flat(1);
-    (price = getTeamData(playerData, nameList, "salary")),
-      (projection = getTeamData(playerData, nameList, "C_Proj")),
-      (teamName = nameList.shift());
-    nameList.unshift(Math.round((price / projection) * 100) / 100);
-    nameList.unshift(Math.round(price * 100) / 100);
-    nameList.unshift(Math.round(projection * 100) / 100);
-    nameList.unshift(teamName);
-    return nameList;
-  });
-
-  //   Bind team data too the table in the DOM
-  var teamsData = teamLists.map((row) => [row[0], row[2], row[1]]);
-  teamNames4buttons = teamsData.map((row) => {
-    return row[0];
-  });
-  var table = d3.select("#tableBody");
-  var trow = table.selectAll("tr").data(teamLists).enter().append("tr");
-  var td = trow
-    .selectAll("td")
-    .data(function (d) {
-      return d;
-    })
-    .enter()
-    .append("td")
-    .text(function (d) {
-      return d;
-    });
-
-  //  long svg are the trash can in eevry row
-  var td2 = trow
-    .append("a")
-    .attr("href", (d) => {
-      return `/delete/teams/${d[0]}`;
-    })
-    .append("button")
-    .classed("btn btn-danger", true)
-    .append("svg")
-    .attr("viewBox", "0 0 24 24")
-    .attr("width", "16")
-    .attr("height", "16");
-  td2
-    .append("path")
-    .attr("fill-rule", "evenodd")
-    .attr(
-      "d",
-      "M16 1.75V3h5.25a.75.75 0 010 1.5H2.75a.75.75 0 010-1.5H8V1.75C8 .784 8.784 0 9.75 0h4.5C15.216 0 16 .784 16 1.75zm-6.5 0a.25.25 0 01.25-.25h4.5a.25.25 0 01.25.25V3h-5V1.75z"
-    );
-  td2
-    .append("path")
-    .attr(
-      "d",
-      "M4.997 6.178a.75.75 0 10-1.493.144L4.916 20.92a1.75 1.75 0 001.742 1.58h10.684a1.75 1.75 0 001.742-1.581l1.413-14.597a.75.75 0 00-1.494-.144l-1.412 14.596a.25.25 0 01-.249.226H6.658a.25.25 0 01-.249-.226L4.997 6.178z"
-    );
-  td2
-    .append("path")
-    .attr(
-      "d",
-      "M9.206 7.501a.75.75 0 01.793.705l.5 8.5A.75.75 0 119 16.794l-.5-8.5a.75.75 0 01.705-.793zm6.293.793A.75.75 0 1014 8.206l-.5 8.5a.75.75 0 001.498.088l.5-8.5z"
-    );
-
   // Initial Chart Configuration
   const margin = { top: 50, right: 50, bottom: 70, left: 80 },
     svgWidth = 660,
@@ -222,6 +118,111 @@ d3.json("stack_data.json").then(function (data) {
     .append("div")
     .classed("tooltip", true)
     .style("visibility", "hidden");
+
+    
+d3.json("stack_data.json").then(function (data) {
+  // Extract data from query
+  console.log("loading data...")
+  var playerData = data["players"],
+    teams = data["teams"];
+    // console.log(playerData)
+    // console.log(teams)
+  var positions = ["qb", "rb", "wr", "te", "dst", "flex"],
+    qbs = playerData.filter((row) => row.position === "QB"),
+    rbs = playerData.filter((row) => row.position === "RB"),
+    wrs = playerData.filter((row) => row.position === "WR"),
+    tes = playerData.filter((row) => row.position === "TE"),
+    dst = playerData.filter((row) => row.position === "DEF");
+
+  assignOptions(qbs, "qb");
+  assignOptions(rbs, "rb");
+  assignOptions(wrs, "wr");
+  assignOptions(tes, "te");
+  assignOptions(dst, "dst");
+  assignOptions(["RB", "WR", "TE"], "flexPosition");
+
+  //  initiate empty dictionaries to be used for data
+  // manipulation later in code
+  var counts = {
+      qbCount: 0,
+      rbCount: 0,
+      wrCount: 0,
+      teCount: 0,
+      dstCount: 0,
+      flexCount: 0,
+    },
+    currentTeam = {
+      teamName: [],
+      QBs: { players: [], projs: [], prices: [] },
+      RBs: { players: [], projs: [], prices: [] },
+      WRs: { players: [], projs: [], prices: [] },
+      TEs: { players: [], projs: [], prices: [] },
+      DSTs: { players: [], projs: [], prices: [] },
+      flexs: { players: [], projs: [], prices: [] },
+    };
+
+  // Get team data
+  var teamLists = teams.map((elem) => {
+    var nameList = Object.values(elem).flat(1);
+    (price = getTeamData(playerData, nameList, "salary")),
+      (projection = getTeamData(playerData, nameList, "C_Proj")),
+      (teamName = nameList.shift());
+    nameList.unshift(Math.round((price / projection) * 100) / 100);
+    nameList.unshift(Math.round(price * 100) / 100);
+    nameList.unshift(Math.round(projection * 100) / 100);
+    nameList.unshift(teamName);
+    return nameList;
+  });
+
+  //   Bind team data too the table in the DOM
+  var teamsData = teamLists.map((row) => [row[0], row[2], row[1]]);
+  teamNames4buttons = teamsData.map((row) => {
+    return row[0];
+  });
+  var table = d3.select("#tableBody");
+  var trow = table.selectAll("tr").data(teamLists).enter().append("tr");
+  var td = trow
+    .selectAll("td")
+    .data(function (d) {
+      return d;
+    })
+    .enter()
+    .append("td")
+    .text(function (d) {
+      return d;
+    });
+
+  //  long svg are the trash can in eevry row
+  var td2 = trow
+    .append("a")
+    .attr("href", (d) => {
+      return `/delete/teams/${d[0]}`;
+    })
+    .append("button")
+    .classed("btn btn-danger", true)
+    .append("svg")
+    .attr("viewBox", "0 0 24 24")
+    .attr("width", "16")
+    .attr("height", "16");
+  td2
+    .append("path")
+    .attr("fill-rule", "evenodd")
+    .attr(
+      "d",
+      "M16 1.75V3h5.25a.75.75 0 010 1.5H2.75a.75.75 0 010-1.5H8V1.75C8 .784 8.784 0 9.75 0h4.5C15.216 0 16 .784 16 1.75zm-6.5 0a.25.25 0 01.25-.25h4.5a.25.25 0 01.25.25V3h-5V1.75z"
+    );
+  td2
+    .append("path")
+    .attr(
+      "d",
+      "M4.997 6.178a.75.75 0 10-1.493.144L4.916 20.92a1.75 1.75 0 001.742 1.58h10.684a1.75 1.75 0 001.742-1.581l1.413-14.597a.75.75 0 00-1.494-.144l-1.412 14.596a.25.25 0 01-.249.226H6.658a.25.25 0 01-.249-.226L4.997 6.178z"
+    );
+  td2
+    .append("path")
+    .attr(
+      "d",
+      "M9.206 7.501a.75.75 0 01.793.705l.5 8.5A.75.75 0 119 16.794l-.5-8.5a.75.75 0 01.705-.793zm6.293.793A.75.75 0 1014 8.206l-.5 8.5a.75.75 0 001.498.088l.5-8.5z"
+    );
 
   // Graph the data
   let circlesGroup = chartGroup.append("g").attr("id", "circleGroup");
@@ -679,7 +680,8 @@ d3.selectAll('.posSelect').on('change', function() {
   };
 
   // Plot the current team
-  plotCurrentTeam(team, chartWidth,
+  plotCurrentTeam(team, 
+    chartWidth,
             chartHeight,
             xAxis,
             yAxis,
