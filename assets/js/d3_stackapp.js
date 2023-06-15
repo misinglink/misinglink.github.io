@@ -1,6 +1,6 @@
 d3.json("stack_data.json").then(function (data) {
   // Extract data from query
-  
+  console.log("loading data...")
   var playerData = data["players"],
     teams = data["teams"];
     // console.log(playerData)
