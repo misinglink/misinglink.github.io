@@ -239,17 +239,13 @@ function xScale(data, chartWidth) {
   return xLinearScale;
 }
 
-function yScale(data, chartHeight, chartType="teamStacked") {
-  yDiff = 5
-  if (chartType == "teamBuild") {
-    yDiff = yDiff * 20
-  }  
+function yScale(data, chartHeight) {
   let yMin = d3.min(data.map((d) => parseFloat(d))),
     yMax = d3.max(data.map((d) => parseFloat(d)));
 
   let yLinearScale = d3
     .scaleLinear()
-    .domain([yMin - yDiff, yMax + yDiff])
+    .domain([yMin - 5, yMax + 5])
     .range([chartHeight, 0]);
 
   return yLinearScale;

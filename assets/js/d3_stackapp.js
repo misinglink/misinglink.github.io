@@ -126,11 +126,11 @@ function processData(teams, playerData) {
 
   ylabelsGroup
     .append("text")
-    .attr("x", -(chartHeight / 2) - 80)
-    .attr("y", -margin.left + 45)
+    .attr("x", -(chartHeight / 2) - 60)
+    .attr("y", -margin.left + 35)
     .attr("value", "Projection")
     .classed("active", true)
-    .text("Consensus Projection (sum)");
+    .text("Projection (sum)");
 
   // Append labels for different plot on top of
   // the graph with their own group
@@ -145,15 +145,15 @@ function processData(teams, playerData) {
     .attr("value", "teamBuild")
     .attr("class", "chartToggle")
     .classed("active", false)
-    .text("Builder");
+    .text("Team Builder");
   dataLabelsGroup
     .append("text")
-    .attr("x", 135)
+    .attr("x", 100)
     .attr("y", -340)
     .attr("value", "teamPlayers")
     .attr("class", "chartToggle")
     .classed("active", false)
-    .text("Teams: Players");
+    .text("Team Analysis: Players");
   dataLabelsGroup
     .append("text")
     .attr("x", 295)
@@ -161,7 +161,7 @@ function processData(teams, playerData) {
     .attr("value", "teamStacked")
     .attr("class", "chartToggle")
     .classed("active", true)
-    .text("Teams: Stacked");
+    .text("Team Analysis: Stacked");
 
   circleColors = [
     "#9B5DE5",
@@ -203,9 +203,6 @@ function processData(teams, playerData) {
   //  long svg are the trash can in eevry row
   var td2 = trow
     .append("a")
-    .attr("href", (d) => {
-      return `/delete/teams/${d[0]}`;
-    })
     .append("button")
     .classed("btn btn-danger", true)
     .append("svg")
@@ -341,7 +338,7 @@ function processData(teams, playerData) {
     const selectedOption = d3.select(this).select('option:checked');
     const name = d3.select(this).property('value');
     const price = selectedOption.attr('price');
-    const proj = selectedOption.attr('price');
+    const proj = selectedOption.attr('proj');
     const list = d3.select("#wrList")
 
     if (counts["wrCount"] < 3) {
@@ -379,7 +376,7 @@ function processData(teams, playerData) {
     const selectedOption = d3.select(this).select('option:checked');
     const name = d3.select(this).property('value');
     const price = selectedOption.attr('price');
-    const proj = selectedOption.attr('price');
+    const proj = selectedOption.attr('proj');
     const list = d3.select("#teList");
 
     if (counts["teCount"] < 1) {
@@ -431,7 +428,7 @@ function processData(teams, playerData) {
     const selectedOption = d3.select(this).select('option:checked');
     const name = d3.select(this).property('value');
     const price = selectedOption.attr('price');
-    const proj = selectedOption.attr('price');
+    const proj = selectedOption.attr('proj');
     const list = d3.select("#qbList")
 
     if (counts["qbCount"] < 1) {
@@ -469,7 +466,7 @@ function processData(teams, playerData) {
     const selectedOption = d3.select(this).select('option:checked');
     const name = d3.select(this).property('value');
     const price = selectedOption.attr('price');
-    const proj = selectedOption.attr('price');
+    const proj = selectedOption.attr('proj');
     const list = d3.select("#dstList");
 
     if (counts["dstCount"] < 1) {
@@ -555,7 +552,7 @@ function processData(teams, playerData) {
     const selectedOption = d3.select(this).select('option:checked');
     const name = d3.select(this).property('value');
     const price = selectedOption.attr('price');
-    const proj = selectedOption.attr('price');
+    const proj = selectedOption.attr('proj');
     const list = d3.select("#rbList")
     if (counts["rbCount"] < 2) {
       currentTeam.RBs.players.push(name);
